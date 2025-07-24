@@ -7,7 +7,7 @@ Supports multi-operator FM synthesis, realtime MIDI control, patch editing via O
 
 ## ✨ Features
 
-- ✅ **6-operator FM synthesis** with 17 routing algorithms (Dexed-inspired)
+- ✅ **6-operator FM synthesis** with 17 extendable routing algorithms 
 - ✅ **Custom envelope engine** with hold, fast-release, and block-aware processing
 - ✅ **Stereo audio output** via I2S, using normalized float-to-int audio pipeline
 - ✅ **Per-note drumkits** with full patch mapping to GM MIDI notes (128-note map)

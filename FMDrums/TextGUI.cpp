@@ -160,8 +160,13 @@ void TextGUI::renderMenu() {
                     break;
                 }
                 safeDrawUTF8(8, y, label.c_str());
-
-                int value = item.value.getter();
+                int value = 0;
+                try {
+                    value = item.value.getter(); 
+                } catch (const std::bad_function_call& e) {
+                    ESP_LOGE("GUI", "Bad function call in item getter: %s", e.what());
+                    break;
+                }
                 String valStr;
 
                 if (item.value.labels && item.value.labelCount > 0) {

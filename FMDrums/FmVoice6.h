@@ -12,6 +12,15 @@ struct FmDrumPatch;
 class IRAM_ATTR FmVoice6 {
 public:
     FmVoice6() {
+
+        if (!buffer) {
+            buffer = (float*) heap_caps_malloc(DMA_BUFFER_LEN * sizeof(float), MALLOC_CAP_INTERNAL | MALLOC_CAP_8BIT);
+            if (!buffer) {
+                ESP_LOGE("FmVoice6", "Failed to allocate voice buffer");
+                // Optional: fallback to internal RAM
+                buffer = (float*) heap_caps_malloc(DMA_BUFFER_LEN * sizeof(float), MALLOC_CAP_8BIT);
+            }
+        }
         setSampleRate(SAMPLE_RATE);
         for (auto& op : ops) op.setSampleRate(sampleRate_);
         filter.init(sampleRate_);
@@ -28,7 +37,8 @@ public:
     inline float& getPan() { return pan_; }
     inline float& getPanL() { return panL_; }
     inline float& getPanR() { return panR_; }
-    inline float& getReverbSend() { return reverbSend_; }
+    inline float& getReverbSend() { return reverbSend_; } 
+    inline float* getBlockBuffer() { return buffer; }
     inline Adsr& getEnv() { return env; }
     inline SvfFilter& getFilter() { return filter; }
     inline bool isFilterActive() const { return useFilter_; }
@@ -107,74 +117,174 @@ public:
         env.end(Adsr::END_REGULAR);
     }
 
-    float __attribute__((always_inline)) process() {
-        float envVal = env.process();
-        float raw ;
+    void __attribute__((always_inline)) process() {
 
         switch(algo_) {
             case 0:
-                raw = algo0_2c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] = velocityVol_ * filter.processMorph(algo0_2c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo0_2c(*this, env.process()); 
+                    }
+                }
                 break;
             case 1:
-                raw = algo1_3c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo1_3c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo1_3c(*this, env.process()); 
+                    }
+                }
                 break;
             case 2:
-                raw = algo2_1m_1c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo2_1m_1c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo2_1m_1c(*this, env.process()); 
+                    }
+                }
                 break;
             case 3:
-                raw = algo3_2m_2c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo3_2m_2c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo3_2m_2c(*this, env.process()); 
+                    }
+                }
                 break;
             case 4:
-                raw = algo4_3ms_1c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo4_3ms_1c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo4_3ms_1c(*this, env.process()); 
+                    }
+                }
                 break;
             case 5:
-                raw = algo5_4ms_1c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo5_4ms_1c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo5_4ms_1c(*this, env.process()); 
+                    }
+                }
                 break;
             case 6:
-                raw = algo6_2m_1m_1c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo6_2m_1m_1c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo6_2m_1m_1c(*this, env.process());
+                    } 
+                }
                 break;
             case 7:
-                raw = algo7_3m_1m_2c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo7_3m_1m_2c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo7_3m_1m_2c(*this, env.process()); 
+                    }
+                }
                 break;
             case 8:
-                raw = algo8_2m_1m_1c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo8_2m_1m_1c(*this, env.process()) );
+                    }
+                    buffer[i] =  velocityVol_ *  algo8_2m_1m_1c(*this, env.process()); 
+                }
                 break;
             case 9:
-                raw = algo9_2m_2m_2c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo9_2m_2m_2c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo9_2m_2m_2c(*this, env.process()); 
+                    }
+                }
                 break;
             case 10:
-                raw = algo10_2m_3c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo10_2m_3c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo10_2m_3c(*this, env.process());
+                    } 
+                }
                 break;
             case 11:
-                raw = algo11_3m_3c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo11_3m_3c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo11_3m_3c(*this, env.process());
+                    } 
+                }
                 break;
             case 12:
-                raw = algo12_2m_4c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo12_2m_4c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo12_2m_4c(*this, env.process());
+                    }
+                }
                 break;
             case 13:
-                raw = algo13_1m_5c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo13_1m_5c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo13_1m_5c(*this, env.process());
+                    }
+                }
                 break;
             case 14:
-                raw = algo14_2m_1amp_1c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo14_2m_1amp_1c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo14_2m_1amp_1c(*this, env.process()); 
+                    }
+                }
                 break;
             case 15:
-                raw = algo15_2m_2amp_2c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo15_2m_2amp_2c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo15_2m_2amp_2c(*this, env.process()); 
+                    }
+                }
                 break;
             case 16:
-                raw = algo16_2m_2amp_1c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo16_2m_2amp_1c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo16_2m_2amp_1c(*this, env.process());
+                    }
+                }
                 break;
             case 17:
-                raw = algo17_4m_1amp_1c(*this, envVal);
+                for (int i = 0; i < DMA_BUFFER_LEN; ++i) { 
+                    if (useFilter_) {
+                        buffer[i] =  velocityVol_ * filter.processMorph(algo17_4m_1amp_1c(*this, env.process()) );
+                    } else {
+                        buffer[i] =  velocityVol_ *  algo17_4m_1amp_1c(*this, env.process()); 
+                    }
+                }
                 break;
             default:
-                raw = 0.0f;  
+                memset(buffer, 0, sizeof(buffer));  
                 break;
         }
-
-        if (unlikely(useFilter_)) {
-            return velocityVol_ * envVal * filter.processMorph(raw);
-        } 
-        return velocityVol_ * envVal * raw;
     }
  
     bool isActive() const {
@@ -224,6 +334,7 @@ public:
     }
 
 private:
+    float* buffer = nullptr;
     float sampleRate_ = 44100.f;
     float baseFreq_ = 60.f;
     float velocity_ = 1.f;

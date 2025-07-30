@@ -15,7 +15,7 @@ struct FmOpParams {
 
 // Single FM drum patch
 struct FmDrumPatch {
-    char* name;
+    char name[16] = {0};
     uint8_t algoIndex;
     float baseFreq = 440.0f;
     FmOpParams ops[6];

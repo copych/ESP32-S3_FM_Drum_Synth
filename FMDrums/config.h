@@ -35,7 +35,7 @@
 #define   NUM_MIDI_CHANNELS		16
 
 // ===================== SYNTHESIZER ================================================================================
-#define MAX_VOICES 12 
+#define MAX_VOICES 10 
 #define MAX_VOICES_PER_NOTE 2
 #define PITCH_BEND_CENTER 0
 

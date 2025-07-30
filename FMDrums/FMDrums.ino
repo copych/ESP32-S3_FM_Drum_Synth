@@ -25,10 +25,10 @@ constexpr int NUM_VOICES = MAX_VOICES;
 #include "DrumkitStorage.h"
 
 constexpr char* TAG = "Main";
+   
 
 float DRAM_ATTR outL[DMA_BUFFER_LEN];
 float DRAM_ATTR outR[DMA_BUFFER_LEN];
-
 
 float DRAM_ATTR sendL[DMA_BUFFER_LEN];
 float DRAM_ATTR sendR[DMA_BUFFER_LEN];
@@ -162,8 +162,8 @@ void setup() {
 #ifdef ENABLE_GUI
     gui.begin();
     gui.message( "Synth Loading...");
-    bool ok = DrumkitStorage::loadDrumkit(FS_USED, "/drumkits/Drumkit_default.json", synth.getPatchMap());
-    gui.message(ok ? "Loaded OK" : "Load Failed");
+    bool ok = DrumkitStorage::loadDrumkit(FS_USED, "/drumkits/Drumkit_default.json", synth.getPatchMap(), synth.getReverb());
+    gui.message(ok ? "Kit Loaded OK" : "Kit Load Failed");
     delay(100);
     ESP_LOGI(TAG, "GUI splash");
 #endif

@@ -24,6 +24,7 @@
 constexpr int DRAM_ATTR NUM_COMBS = 4;
 constexpr int DRAM_ATTR NUM_ALLPASSES = 3;
 constexpr int DRAM_ATTR MAX_PREDELAY_MS = 100;
+constexpr float DRAM_ATTR ATTENUATOR = 0.2f / NUM_COMBS;
 
 const DRAM_ATTR float comb_lengths[NUM_COMBS] = {3604.0f, 3112.0f, 4044.0f, 4492.0f};
 const DRAM_ATTR float comb_gains[NUM_COMBS]   = {0.805f, 0.827f, 0.783f, 0.764f};
@@ -180,11 +181,15 @@ private:
 
   inline float  __attribute__((hot,always_inline)) IRAM_ATTR processChannel(int ch, float input) {
     float sum = 0.0f;
+
     for (int i = 0; i < NUM_COMBS; ++i)
-      sum += doComb(ch, i, input);
-    float out = sum / NUM_COMBS;
+        sum += doComb(ch, i, input);
+
+    float out = sum * ATTENUATOR;
+
     for (int i = 0; i < NUM_ALLPASSES; ++i)
-      out = doAllpass(ch, i, out);
+        out = doAllpass(ch, i, out);
+
     return out;
   }
 
@@ -195,7 +200,6 @@ private:
     float* buf = combBuf[ch][idx];
 
     float out = buf[p];
- //   store += comb_dampings[idx] * (out - store);  // 1-pole LPF
     store = store * (1.0f - comb_dampings[idx]) + out * comb_dampings[idx];
 
     buf[p] = in + store * g;

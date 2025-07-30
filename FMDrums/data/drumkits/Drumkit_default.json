@@ -1,0 +1,7944 @@
+{
+  "reverbTime": 0.460239559,
+  "reverbLevel": 0.5,
+  "reverbDamp": 0.219999999,
+  "reverbPreDelay": 11.99546432,
+  "patches": [
+    {
+      "name": "HighQ",
+      "alg": 2,
+      "freq": 10,
+      "veloMod": 0.5,
+      "vol": 2,
+      "pan": 0,
+      "rvb": 0.02,
+      "atk": 0,
+      "hold": 0,
+      "dec": 0.050000001,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.949999988,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.75,
+          "wave": 4
+        }
+      ]
+    },
+    {
+      "name": "HighQ",
+      "alg": 2,
+      "freq": 10,
+      "veloMod": 0.5,
+      "vol": 2,
+      "pan": 0,
+      "rvb": 0.02,
+      "atk": 0,
+      "hold": 0,
+      "dec": 0.050000001,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.949999988,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.75,
+          "wave": 4
+        }
+      ]
+    },
+    {
+      "name": "HighQ",
+      "alg": 2,
+      "freq": 10,
+      "veloMod": 0.5,
+      "vol": 2,
+      "pan": 0,
+      "rvb": 0.02,
+      "atk": 0,
+      "hold": 0,
+      "dec": 0.050000001,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.949999988,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.75,
+          "wave": 4
+        }
+      ]
+    },
+    {
+      "name": "HighQ",
+      "alg": 2,
+      "freq": 10,
+      "veloMod": 0.5,
+      "vol": 2,
+      "pan": 0,
+      "rvb": 0.02,
+      "atk": 0,
+      "hold": 0,
+      "dec": 0.050000001,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.949999988,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.75,
+          "wave": 4
+        }
+      ]
+    },
+    {
+      "name": "HighQ",
+      "alg": 2,
+      "freq": 10,
+      "veloMod": 0.5,
+      "vol": 2,
+      "pan": 0,
+      "rvb": 0.02,
+      "atk": 0,
+      "hold": 0,
+      "dec": 0.050000001,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.949999988,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.75,
+          "wave": 4
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Sub Kick",
+      "alg": 0,
+      "freq": 55,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.01,
+      "dec": 0.300000012,
+      "sus": 0,
+      "rel": 0.200000003,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.670000017,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "",
+      "alg": 0,
+      "freq": 440,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 0.200000003,
+      "sus": 0,
+      "rel": 0.100000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Sub Kick",
+      "alg": 0,
+      "freq": 55,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.01,
+      "dec": 0.300000012,
+      "sus": 0,
+      "rel": 0.200000003,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.670000017,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Noise Clap",
+      "alg": 1,
+      "freq": 650,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 4.599999905,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.800000191,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Closed Hat",
+      "alg": 2,
+      "freq": 3200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.059999999,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Deep Tom",
+      "alg": 3,
+      "freq": 180,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.800000012,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.200000003,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.200000048,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Body",
+      "alg": 4,
+      "freq": 210,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.25,
+      "sus": 0,
+      "rel": 0.25,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 4,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Noise",
+      "alg": 5,
+      "freq": 200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.349999994,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Metal Stack",
+      "alg": 6,
+      "freq": 1200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.600000024,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Twirl",
+      "alg": 17,
+      "freq": 1064,
+      "veloMod": 0.5,
+      "vol": 0.319999993,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 1.302999973,
+      "hold": 0.55400002,
+      "dec": 1.330000043,
+      "sus": 0.5,
+      "rel": 1.947000027,
+      "flt": 0,
+      "filterFreq": 1404,
+      "filterReso": 0.050000001,
+      "filterMorph": 0.340000004,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.039999962,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.07,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 6.699999809,
+          "fb": 0,
+          "vol": 1,
+          "wave": 1
+        },
+        {
+          "ratio": 0,
+          "detune": 0.299999714,
+          "fb": 0,
+          "vol": 0.209999993,
+          "wave": 5
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.029999999,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.039999999,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass Bell",
+      "alg": 3,
+      "freq": 2420,
+      "veloMod": 0.5,
+      "vol": 0.600000024,
+      "pan": 0,
+      "rvb": 0.460000008,
+      "atk": 0,
+      "hold": 0.01,
+      "dec": 6.269999981,
+      "sus": 0,
+      "rel": 6.229000092,
+      "flt": 0,
+      "filterFreq": 4125,
+      "filterReso": 0.01,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1.039999962,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.430000007,
+          "wave": 0
+        },
+        {
+          "ratio": 2.380000114,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1,
+          "detune": 3.700000048,
+          "fb": 0,
+          "vol": 0.300000012,
+          "wave": 2
+        },
+        {
+          "ratio": 1,
+          "detune": 2.200000286,
+          "fb": 0,
+          "vol": 0.189999998,
+          "wave": 0
+        },
+        {
+          "ratio": 1.430000067,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.090000004,
+          "wave": 1
+        }
+      ]
+    },
+    {
+      "name": "Sub Kick",
+      "alg": 3,
+      "freq": 53,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0,
+      "atk": 0,
+      "hold": 0.013,
+      "dec": 0.953000009,
+      "sus": 0,
+      "rel": 0.930000007,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0,
+          "wave": 0
+        },
+        {
+          "ratio": 0.010000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.029999999,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "HighQ",
+      "alg": 2,
+      "freq": 10,
+      "veloMod": 0.5,
+      "vol": 2,
+      "pan": 0,
+      "rvb": 0.02,
+      "atk": 0,
+      "hold": 0,
+      "dec": 0.050000001,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.949999988,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.75,
+          "wave": 4
+        }
+      ]
+    },
+    {
+      "name": "SnareSlap",
+      "alg": 6,
+      "freq": 272,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.565999985,
+      "sus": 0,
+      "rel": 0.569000006,
+      "flt": 0,
+      "filterFreq": 4622,
+      "filterReso": 0.01,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 2
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.200000048,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 10,
+          "vol": 0.02,
+          "wave": 0
+        },
+        {
+          "ratio": 1.230000019,
+          "detune": 0,
+          "fb": 0.099999994,
+          "vol": 0.029999999,
+          "wave": 0
+        },
+        {
+          "ratio": 0.810000002,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.029999999,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "BassDrum",
+      "alg": 3,
+      "freq": 32,
+      "veloMod": 0.5,
+      "vol": 1.679999948,
+      "pan": 0,
+      "rvb": 0.050000001,
+      "atk": 0,
+      "hold": 0,
+      "dec": 0.600499988,
+      "sus": 0,
+      "rel": 0.600499988,
+      "flt": 0,
+      "filterFreq": 8444,
+      "filterReso": 0.319999993,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.049999997,
+          "detune": 0,
+          "fb": 0,
+          "vol": 1.004999995,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.180000067,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.680000007,
+          "wave": 1
+        },
+        {
+          "ratio": 0.149999991,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.059999999,
+          "wave": 6
+        },
+        {
+          "ratio": 0.07,
+          "detune": 0,
+          "fb": 0.900000036,
+          "vol": 0.430000007,
+          "wave": 9
+        }
+      ]
+    },
+    {
+      "name": "Kick",
+      "alg": 3,
+      "freq": 46,
+      "veloMod": 0.5,
+      "vol": 1.600000024,
+      "pan": 0,
+      "rvb": 0.02,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.795000017,
+      "sus": 0,
+      "rel": 0.769999981,
+      "flt": 0,
+      "filterFreq": 4929,
+      "filterReso": 0.01,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.149999991,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.049999997,
+          "detune": 1.499999762,
+          "fb": 0,
+          "vol": 0.270000011,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0.499999523,
+          "fb": 0,
+          "vol": 0.230000004,
+          "wave": 4
+        }
+      ]
+    },
+    {
+      "name": "SideStick",
+      "alg": 3,
+      "freq": 290,
+      "veloMod": 0.5,
+      "vol": 1.600000024,
+      "pan": 0,
+      "rvb": 0.059999999,
+      "atk": 0,
+      "hold": 0,
+      "dec": 0.079999998,
+      "sus": 0,
+      "rel": 0.079999998,
+      "flt": 1,
+      "filterFreq": 549,
+      "filterReso": 0,
+      "filterMorph": 0.709999979,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 1
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.700000048,
+          "detune": 0,
+          "fb": 6.399999619,
+          "vol": 0.709999979,
+          "wave": 9
+        },
+        {
+          "ratio": 1.110000014,
+          "detune": 0,
+          "fb": 5.799999714,
+          "vol": 0.079999998,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "AccSnare",
+      "alg": 3,
+      "freq": 222,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0,
+      "hold": 0,
+      "dec": 0.850000024,
+      "sus": 0,
+      "rel": 0.850000024,
+      "flt": 1,
+      "filterFreq": 5868,
+      "filterReso": 0.01,
+      "filterMorph": 0.01,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.949999988,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 6.700000286,
+          "vol": 0.360000014,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 8.199999809,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.790000021,
+          "detune": 0,
+          "fb": 6.349999905,
+          "vol": 0.01,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Hand Claps",
+      "alg": 14,
+      "freq": 124,
+      "veloMod": 0.800000012,
+      "vol": 1.600000024,
+      "pan": 0,
+      "rvb": 0.059999999,
+      "atk": 0.02,
+      "hold": 0.007,
+      "dec": 0.5,
+      "sus": 0,
+      "rel": 0.5,
+      "flt": 1,
+      "filterFreq": 1285,
+      "filterReso": 0.529999971,
+      "filterMorph": 0.519999981,
+      "ops": [
+        {
+          "ratio": 1.004999995,
+          "detune": 0,
+          "fb": 7.150000095,
+          "vol": 1.004999995,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.659999967,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.49000001,
+          "wave": 9
+        },
+        {
+          "ratio": 1.004999995,
+          "detune": 0,
+          "fb": 7.25,
+          "vol": 1.004999995,
+          "wave": 0
+        },
+        {
+          "ratio": 1.039999962,
+          "detune": 0,
+          "fb": 4.199999809,
+          "vol": 0.579999983,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Body",
+      "alg": 3,
+      "freq": 260,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.25,
+      "sus": 0,
+      "rel": 0.25,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 2
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.109999999,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 4.300000191,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 7,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tom",
+      "alg": 3,
+      "freq": 65,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": -0.209999979,
+      "rvb": 0.100000001,
+      "atk": 0,
+      "hold": 0.01,
+      "dec": 0.828000009,
+      "sus": 0.005,
+      "rel": 0.828000009,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.01,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.569999993,
+          "wave": 2
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.075000003,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.790000021,
+          "wave": 2
+        },
+        {
+          "ratio": 0,
+          "detune": -2.5,
+          "fb": 0,
+          "vol": 0.400000006,
+          "wave": 9
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.039999999,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Hi Hat",
+      "alg": 2,
+      "freq": 1817,
+      "veloMod": 0.5,
+      "vol": 1.100000024,
+      "pan": 0.159999967,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0,
+      "dec": 0.172999993,
+      "sus": 0,
+      "rel": 0.180999994,
+      "flt": 1,
+      "filterFreq": 4820,
+      "filterReso": 0,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tom",
+      "alg": 3,
+      "freq": 100,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": -0.199999988,
+      "rvb": 0.100000001,
+      "atk": 0,
+      "hold": 0.01,
+      "dec": 0.828000009,
+      "sus": 0.005,
+      "rel": 0.828000009,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.01,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.479999989,
+          "wave": 2
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.075000003,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.790000021,
+          "wave": 2
+        },
+        {
+          "ratio": 0,
+          "detune": -2.5,
+          "fb": 0,
+          "vol": 0.400000006,
+          "wave": 9
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.02,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Hi Hat",
+      "alg": 2,
+      "freq": 1817,
+      "veloMod": 0.5,
+      "vol": 0.779999971,
+      "pan": 0.149999976,
+      "rvb": 0.100000001,
+      "atk": 0.025,
+      "hold": 0.004,
+      "dec": 0.204999998,
+      "sus": 0,
+      "rel": 0.204999998,
+      "flt": 1,
+      "filterFreq": 4820,
+      "filterReso": 0,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tom",
+      "alg": 3,
+      "freq": 135,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": -0.149999976,
+      "rvb": 0.100000001,
+      "atk": 0,
+      "hold": 0.01,
+      "dec": 0.828000009,
+      "sus": 0.005,
+      "rel": 0.828000009,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.01,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.330000013,
+          "wave": 2
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.075000003,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.790000021,
+          "wave": 2
+        },
+        {
+          "ratio": 0,
+          "detune": -2.5,
+          "fb": 0,
+          "vol": 0.400000006,
+          "wave": 9
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.02,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Hi Hat",
+      "alg": 3,
+      "freq": 3931,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0.149999976,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0.041999999,
+      "dec": 1.325000048,
+      "sus": 0,
+      "rel": 1.332000017,
+      "flt": 1,
+      "filterFreq": 4820,
+      "filterReso": 0,
+      "filterMorph": 0.709999979,
+      "ops": [
+        {
+          "ratio": 1.019999981,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.389999986,
+          "wave": 3
+        },
+        {
+          "ratio": 1.159999967,
+          "detune": 0,
+          "fb": 4.699999809,
+          "vol": 0.850000024,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.090000153,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.879999876,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.540000021,
+          "wave": 6
+        }
+      ]
+    },
+    {
+      "name": "Tom",
+      "alg": 3,
+      "freq": 210,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": -0.100000024,
+      "rvb": 0.100000001,
+      "atk": 0,
+      "hold": 0.01,
+      "dec": 0.828000009,
+      "sus": 0.005,
+      "rel": 0.828000009,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.01,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.680000067,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.319999993,
+          "wave": 2
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.075000003,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.790000021,
+          "wave": 2
+        },
+        {
+          "ratio": 0,
+          "detune": -2.5,
+          "fb": 0,
+          "vol": 0.400000006,
+          "wave": 9
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.01,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tom",
+      "alg": 3,
+      "freq": 320,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": -0.060000002,
+      "rvb": 0.100000001,
+      "atk": 0,
+      "hold": 0.01,
+      "dec": 0.828000009,
+      "sus": 0.005,
+      "rel": 0.828000009,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.01,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.710000038,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.129999995,
+          "wave": 2
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.075000003,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.790000021,
+          "wave": 2
+        },
+        {
+          "ratio": 0,
+          "detune": -2.5,
+          "fb": 0,
+          "vol": 0.400000006,
+          "wave": 9
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.01,
+          "wave": 2
+        }
+      ]
+    },
+    {
+      "name": "Crash 1",
+      "alg": 6,
+      "freq": 1866,
+      "veloMod": 0.5,
+      "vol": 0.699999988,
+      "pan": -0.180000007,
+      "rvb": 0.49000001,
+      "atk": 0.01,
+      "hold": 0.01,
+      "dec": 6,
+      "sus": 0,
+      "rel": 6,
+      "flt": 1,
+      "filterFreq": 1300,
+      "filterReso": 0,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.110000014,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.419999987,
+          "wave": 3
+        },
+        {
+          "ratio": 1.570000052,
+          "detune": 0,
+          "fb": 8,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 4.199999809,
+          "fb": 5.299999714,
+          "vol": 0.379999995,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 3.799999952,
+          "vol": 0.5,
+          "wave": 8
+        },
+        {
+          "ratio": 2.109999895,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.25,
+          "wave": 8
+        }
+      ]
+    },
+    {
+      "name": "Tom",
+      "alg": 3,
+      "freq": 400,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0,
+      "hold": 0.01,
+      "dec": 0.654999971,
+      "sus": 0.005,
+      "rel": 0.671000004,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.01,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.119999997,
+          "wave": 2
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.075000003,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.790000021,
+          "wave": 2
+        },
+        {
+          "ratio": 0,
+          "detune": -2.5,
+          "fb": 0,
+          "vol": 0.400000006,
+          "wave": 9
+        },
+        {
+          "ratio": 0.419999987,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.01,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Closed Hat",
+      "alg": 12,
+      "freq": 991,
+      "veloMod": 0.5,
+      "vol": 1.539999962,
+      "pan": 0.139999986,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 4.397999763,
+      "sus": 0,
+      "rel": 4.407999992,
+      "flt": 1,
+      "filterFreq": 5252,
+      "filterReso": 0.01,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.070000052,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.219999999,
+          "wave": 3
+        },
+        {
+          "ratio": 1.029999971,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.289999992,
+          "wave": 3
+        },
+        {
+          "ratio": 1.539999962,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.340000004,
+          "wave": 3
+        },
+        {
+          "ratio": 0.99000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.079999998,
+          "wave": 3
+        },
+        {
+          "ratio": 0.550000012,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.119999997,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Deep Tom",
+      "alg": 3,
+      "freq": 1163,
+      "veloMod": 0.5,
+      "vol": 1.5,
+      "pan": -0.100000024,
+      "rvb": 0.100000001,
+      "atk": 0.028999999,
+      "hold": 0.003,
+      "dec": 3.128000021,
+      "sus": 0,
+      "rel": 3.128000021,
+      "flt": 1,
+      "filterFreq": 13262,
+      "filterReso": 0,
+      "filterMorph": 0.01,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 6.199999809,
+          "vol": 0.349999994,
+          "wave": 0
+        },
+        {
+          "ratio": 1.039999962,
+          "detune": 0,
+          "fb": 6.800000191,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.00999999,
+          "detune": 0,
+          "fb": 5.099999905,
+          "vol": 0.469999999,
+          "wave": 0
+        },
+        {
+          "ratio": 1.610000014,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.25999999,
+          "wave": 0
+        },
+        {
+          "ratio": 2.440000057,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Snare Body",
+      "alg": 10,
+      "freq": 2178,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": -0.110000014,
+      "rvb": 0.100000001,
+      "atk": 0.004,
+      "hold": 0,
+      "dec": 6.112999916,
+      "sus": 0,
+      "rel": 6.156000137,
+      "flt": 1,
+      "filterFreq": 3779,
+      "filterReso": 0.01,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 1
+        },
+        {
+          "ratio": 1.460000038,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.959999919,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.939999938,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.029999999,
+          "wave": 0
+        },
+        {
+          "ratio": 0.949999988,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.029999999,
+          "wave": 0
+        },
+        {
+          "ratio": 1.399999976,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.029999999,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Noise",
+      "alg": 14,
+      "freq": 7221,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.319999993,
+      "atk": 0.079999998,
+      "hold": 0.009,
+      "dec": 0.628000021,
+      "sus": 0,
+      "rel": 0.629999995,
+      "flt": 1,
+      "filterFreq": 3818,
+      "filterReso": 0,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.399999976,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 0.010000001,
+          "detune": -5.099999905,
+          "fb": 0,
+          "vol": 0.25999999,
+          "wave": 7
+        },
+        {
+          "ratio": 0.020000001,
+          "detune": 4.800000191,
+          "fb": 0,
+          "vol": 0.430000007,
+          "wave": 9
+        },
+        {
+          "ratio": 1.389999986,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.370000124,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.050000001,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Cymbal",
+      "alg": 11,
+      "freq": 1284,
+      "veloMod": 0.5,
+      "vol": 1.399999976,
+      "pan": -0.079999983,
+      "rvb": 0.100000001,
+      "atk": 0,
+      "hold": 0.01,
+      "dec": 1.5,
+      "sus": 0,
+      "rel": 1.5,
+      "flt": 1,
+      "filterFreq": 4125,
+      "filterReso": 0.01,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 0.970000029,
+          "detune": 0,
+          "fb": 6.100000381,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.059999943,
+          "detune": -4.300000191,
+          "fb": 3.099999905,
+          "vol": 0.039999999,
+          "wave": 0
+        },
+        {
+          "ratio": 2.380000114,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.180000067,
+          "detune": 0,
+          "fb": 8.699999809,
+          "vol": 0.189999998,
+          "wave": 0
+        },
+        {
+          "ratio": 2.389999866,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.280000091,
+          "detune": 0,
+          "fb": 5.5,
+          "vol": 0.100000001,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Noise Bell",
+      "alg": 3,
+      "freq": 357,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0,
+      "dec": 0.284000009,
+      "sus": 0,
+      "rel": 0.282999992,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.49000001,
+          "wave": 7
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.00999999,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3.25,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.050000001,
+          "wave": 3
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.050000001,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Cymbal",
+      "alg": 11,
+      "freq": 1509,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": -0.170000017,
+      "rvb": 0.100000001,
+      "atk": 0,
+      "hold": 0.01,
+      "dec": 8,
+      "sus": 0,
+      "rel": 8,
+      "flt": 1,
+      "filterFreq": 4125,
+      "filterReso": 0.01,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1.039999962,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.059999943,
+          "detune": -4.300000191,
+          "fb": 5.5,
+          "vol": 0.029999999,
+          "wave": 0
+        },
+        {
+          "ratio": 2.380000114,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.180000067,
+          "detune": 0,
+          "fb": 5.699999809,
+          "vol": 0.029999999,
+          "wave": 0
+        },
+        {
+          "ratio": 2.389999866,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.280000091,
+          "detune": 0,
+          "fb": 6.100000381,
+          "vol": 0.029999999,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tight Clap",
+      "alg": 14,
+      "freq": 1373,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.023,
+      "hold": 0.005,
+      "dec": 3.609999895,
+      "sus": 0,
+      "rel": 3.605000019,
+      "flt": 1,
+      "filterFreq": 1377,
+      "filterReso": 0.860000014,
+      "filterMorph": 0.579999983,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 5.599999905,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.020000001,
+          "detune": -5,
+          "fb": 0,
+          "vol": 1,
+          "wave": 9
+        },
+        {
+          "ratio": 2.200000048,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.129999995,
+          "detune": 0,
+          "fb": 6.600000381,
+          "vol": 0.100000001,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tick Click",
+      "alg": 3,
+      "freq": 776,
+      "veloMod": 0.5,
+      "vol": 0.579999983,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0,
+      "dec": 3.664999962,
+      "sus": 0,
+      "rel": 3.724999905,
+      "flt": 1,
+      "filterFreq": 1873,
+      "filterReso": 0.01,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1.019999981,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.109999895,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.050000001,
+          "wave": 0
+        },
+        {
+          "ratio": 1.870000124,
+          "detune": 0,
+          "fb": 3.5,
+          "vol": 0.050000001,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass FX",
+      "alg": 2,
+      "freq": 211,
+      "veloMod": 0.5,
+      "vol": 1.419999957,
+      "pan": 0.230000019,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.200000048,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Rail bell",
+      "alg": 2,
+      "freq": 135,
+      "veloMod": 0.5,
+      "vol": 1.460000038,
+      "pan": 0.220000029,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0,
+      "dec": 0.356000006,
+      "sus": 0,
+      "rel": 0.550999999,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.480999947,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.108999968,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.49000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.396999955,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Sub Kick",
+      "alg": 0,
+      "freq": 55,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.01,
+      "dec": 0.300000012,
+      "sus": 0,
+      "rel": 0.200000003,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.670000017,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Noise Clap",
+      "alg": 1,
+      "freq": 650,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 4.599999905,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.800000191,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Closed Hat",
+      "alg": 2,
+      "freq": 3200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.059999999,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Deep Tom",
+      "alg": 3,
+      "freq": 180,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.800000012,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.200000003,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.200000048,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Body",
+      "alg": 4,
+      "freq": 210,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.25,
+      "sus": 0,
+      "rel": 0.25,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 4,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Noise",
+      "alg": 2,
+      "freq": 472,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.100000001,
+      "hold": 0.126000002,
+      "dec": 0.349999994,
+      "sus": 0,
+      "rel": 0.465999991,
+      "flt": 0,
+      "filterFreq": 1425,
+      "filterReso": 1,
+      "filterMorph": 0.560000002,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.900000036,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.129999995,
+          "wave": 9
+        }
+      ]
+    },
+    {
+      "name": "Metal Stack",
+      "alg": 2,
+      "freq": 359,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.100000001,
+      "hold": 0.261999995,
+      "dec": 0.606999993,
+      "sus": 0,
+      "rel": 0.600000024,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.900000036,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": -0.500000119,
+          "fb": 0,
+          "vol": 0.209999993,
+          "wave": 1
+        }
+      ]
+    },
+    {
+      "name": "Noise Bell",
+      "alg": 7,
+      "freq": 800,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Chime",
+      "alg": 2,
+      "freq": 3102,
+      "veloMod": 0.5,
+      "vol": 1.200000048,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.240999997,
+      "hold": 0.01,
+      "dec": 0.342000008,
+      "sus": 0,
+      "rel": 0.333999991,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 5.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3.539999962,
+          "detune": 0,
+          "fb": 6.399999619,
+          "vol": 0.059999999,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Whistle",
+      "alg": 14,
+      "freq": 2135,
+      "veloMod": 0.5,
+      "vol": 1.419999957,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.101999998,
+      "hold": 0.029999999,
+      "dec": 0.150000006,
+      "sus": 0,
+      "rel": 0.150000006,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.959999979,
+          "wave": 5
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.030000001,
+          "detune": 4.099999428,
+          "fb": 3.199999809,
+          "vol": 1,
+          "wave": 1
+        },
+        {
+          "ratio": 2.200000048,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 2.5,
+          "fb": 0,
+          "vol": 0.170000002,
+          "wave": 6
+        }
+      ]
+    },
+    {
+      "name": "Whistle",
+      "alg": 14,
+      "freq": 2135,
+      "veloMod": 0.5,
+      "vol": 1.419999957,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.101999998,
+      "hold": 0.200000003,
+      "dec": 0.150000006,
+      "sus": 0,
+      "rel": 0.150000006,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.959999979,
+          "wave": 5
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.030000001,
+          "detune": 4.099999428,
+          "fb": 3.199999809,
+          "vol": 1,
+          "wave": 1
+        },
+        {
+          "ratio": 2.200000048,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 2.5,
+          "fb": 0,
+          "vol": 0.170000002,
+          "wave": 6
+        }
+      ]
+    },
+    {
+      "name": "Guiro",
+      "alg": 17,
+      "freq": 660,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.078000002,
+      "dec": 0.282000005,
+      "sus": 0,
+      "rel": 0.287999988,
+      "flt": 1,
+      "filterFreq": 1245,
+      "filterReso": 0,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.399999976,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.01,
+          "wave": 0
+        },
+        {
+          "ratio": 0.109999999,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 1,
+          "wave": 9
+        },
+        {
+          "ratio": 0,
+          "detune": 1.100000143,
+          "fb": 0,
+          "vol": 0.100000001,
+          "wave": 0
+        },
+        {
+          "ratio": 1.790000081,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.409999996,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.01,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Guiro",
+      "alg": 17,
+      "freq": 660,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.103,
+      "dec": 0.404000014,
+      "sus": 0,
+      "rel": 0.558000028,
+      "flt": 1,
+      "filterFreq": 1245,
+      "filterReso": 0,
+      "filterMorph": 1,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.399999976,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.01,
+          "wave": 0
+        },
+        {
+          "ratio": 0.049999997,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 1,
+          "wave": 9
+        },
+        {
+          "ratio": 0.049999997,
+          "detune": 0.399999619,
+          "fb": 0,
+          "vol": 0.029999999,
+          "wave": 8
+        },
+        {
+          "ratio": 1.790000081,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.449999988,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.01,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Sub Kick",
+      "alg": 0,
+      "freq": 55,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.01,
+      "dec": 0.300000012,
+      "sus": 0,
+      "rel": 0.200000003,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.670000017,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Noise Clap",
+      "alg": 1,
+      "freq": 650,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 4.599999905,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.800000191,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Closed Hat",
+      "alg": 2,
+      "freq": 3200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.059999999,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Deep Tom",
+      "alg": 3,
+      "freq": 180,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.800000012,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.200000003,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.200000048,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Body",
+      "alg": 4,
+      "freq": 210,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.25,
+      "sus": 0,
+      "rel": 0.25,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 4,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Noise",
+      "alg": 5,
+      "freq": 200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.349999994,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Metal Stack",
+      "alg": 6,
+      "freq": 1200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.600000024,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Noise Bell",
+      "alg": 7,
+      "freq": 800,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Chime",
+      "alg": 8,
+      "freq": 1000,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 1,
+      "sus": 0,
+      "rel": 0.899999976,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tight Clap",
+      "alg": 9,
+      "freq": 600,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.150000006,
+      "sus": 0,
+      "rel": 0.119999997,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.200000048,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tick Click",
+      "alg": 10,
+      "freq": 1500,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.100000001,
+      "sus": 0,
+      "rel": 0.079999998,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass FX",
+      "alg": 11,
+      "freq": 1700,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.200000048,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Rail bell",
+      "alg": 10,
+      "freq": 2000,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0,
+      "dec": 6.300000191,
+      "sus": 0,
+      "rel": 6.099999905,
+      "flt": 0,
+      "filterFreq": 16000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1.047000051,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.480999947,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.108999968,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.49000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.396999955,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.49000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Sub Kick",
+      "alg": 0,
+      "freq": 55,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.01,
+      "dec": 0.300000012,
+      "sus": 0,
+      "rel": 0.200000003,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.670000017,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Noise Clap",
+      "alg": 1,
+      "freq": 650,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 4.599999905,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.800000191,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Closed Hat",
+      "alg": 2,
+      "freq": 3200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.059999999,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Deep Tom",
+      "alg": 3,
+      "freq": 180,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.800000012,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.200000003,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.200000048,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Body",
+      "alg": 4,
+      "freq": 210,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.25,
+      "sus": 0,
+      "rel": 0.25,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 4,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Noise",
+      "alg": 5,
+      "freq": 200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.349999994,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Metal Stack",
+      "alg": 6,
+      "freq": 1200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.600000024,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Noise Bell",
+      "alg": 7,
+      "freq": 800,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Chime",
+      "alg": 8,
+      "freq": 1000,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 1,
+      "sus": 0,
+      "rel": 0.899999976,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tight Clap",
+      "alg": 9,
+      "freq": 600,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.150000006,
+      "sus": 0,
+      "rel": 0.119999997,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.200000048,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tick Click",
+      "alg": 10,
+      "freq": 1500,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.100000001,
+      "sus": 0,
+      "rel": 0.079999998,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass FX",
+      "alg": 11,
+      "freq": 1700,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.200000048,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Rail bell",
+      "alg": 10,
+      "freq": 2000,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0,
+      "dec": 6.300000191,
+      "sus": 0,
+      "rel": 6.099999905,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1.047000051,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.480999947,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.108999968,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.49000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.396999955,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.49000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Sub Kick",
+      "alg": 0,
+      "freq": 55,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.01,
+      "dec": 0.300000012,
+      "sus": 0,
+      "rel": 0.200000003,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.670000017,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Noise Clap",
+      "alg": 1,
+      "freq": 650,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 4.599999905,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.800000191,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Closed Hat",
+      "alg": 2,
+      "freq": 3200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.059999999,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Deep Tom",
+      "alg": 3,
+      "freq": 180,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.800000012,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.200000003,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.200000048,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Body",
+      "alg": 4,
+      "freq": 210,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.25,
+      "sus": 0,
+      "rel": 0.25,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 4,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Noise",
+      "alg": 5,
+      "freq": 200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.349999994,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Metal Stack",
+      "alg": 6,
+      "freq": 1200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.600000024,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Noise Bell",
+      "alg": 7,
+      "freq": 800,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Chime",
+      "alg": 8,
+      "freq": 1000,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 1,
+      "sus": 0,
+      "rel": 0.899999976,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tight Clap",
+      "alg": 9,
+      "freq": 600,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.150000006,
+      "sus": 0,
+      "rel": 0.119999997,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.200000048,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tick Click",
+      "alg": 10,
+      "freq": 1500,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.100000001,
+      "sus": 0,
+      "rel": 0.079999998,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass FX",
+      "alg": 11,
+      "freq": 1700,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.200000048,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Rail bell",
+      "alg": 10,
+      "freq": 2000,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0,
+      "dec": 6.300000191,
+      "sus": 0,
+      "rel": 6.099999905,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1.047000051,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.480999947,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.108999968,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.49000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.396999955,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.49000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Sub Kick",
+      "alg": 0,
+      "freq": 55,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.01,
+      "dec": 0.300000012,
+      "sus": 0,
+      "rel": 0.200000003,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.670000017,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Noise Clap",
+      "alg": 1,
+      "freq": 650,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.050000001,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 4.599999905,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.800000191,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Closed Hat",
+      "alg": 2,
+      "freq": 3200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.119999997,
+      "sus": 0,
+      "rel": 0.059999999,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Deep Tom",
+      "alg": 3,
+      "freq": 180,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.800000012,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.200000003,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.200000048,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Body",
+      "alg": 4,
+      "freq": 210,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.25,
+      "sus": 0,
+      "rel": 0.25,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 4,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Snare Noise",
+      "alg": 5,
+      "freq": 200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.349999994,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Metal Stack",
+      "alg": 6,
+      "freq": 1200,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.600000024,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Noise Bell",
+      "alg": 7,
+      "freq": 800,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 0.600000024,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Chime",
+      "alg": 8,
+      "freq": 1000,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.002,
+      "hold": 0.01,
+      "dec": 1,
+      "sus": 0,
+      "rel": 0.899999976,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tight Clap",
+      "alg": 9,
+      "freq": 600,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.150000006,
+      "sus": 0,
+      "rel": 0.119999997,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0.100000001,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1.799999952,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.200000048,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Tick Click",
+      "alg": 10,
+      "freq": 1500,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.005,
+      "dec": 0.100000001,
+      "sus": 0,
+      "rel": 0.079999998,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 1,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 3,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 4,
+          "detune": 0,
+          "fb": 2.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Glass FX",
+      "alg": 11,
+      "freq": 1700,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.200000048,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Rail bell",
+      "alg": 10,
+      "freq": 2000,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.01,
+      "hold": 0,
+      "dec": 6.300000191,
+      "sus": 0,
+      "rel": 6.099999905,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1.047000051,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.480999947,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.108999968,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.49000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1.396999955,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 2.49000001,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    },
+    {
+      "name": "Sub Kick",
+      "alg": 0,
+      "freq": 55,
+      "veloMod": 0.5,
+      "vol": 1,
+      "pan": 0,
+      "rvb": 0.100000001,
+      "atk": 0.001,
+      "hold": 0.01,
+      "dec": 0.300000012,
+      "sus": 0,
+      "rel": 0.200000003,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 0.670000017,
+          "detune": 0,
+          "fb": 1.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 3
+        }
+      ]
+    }
+  ]
+}

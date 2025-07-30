@@ -261,7 +261,7 @@ inline std::vector<MenuItem> createSystemMenu() {
                 items.emplace_back(MenuItem::Action(name, [name](TextGUI& gui) {
                     char path[64];
                     snprintf(path, sizeof(path), DRUMKIT_DIR "/%s.json", name.c_str());
-                    bool ok = DrumkitStorage::saveDrumkit(FS_USED, path, synth.getPatchMap());
+                    bool ok = DrumkitStorage::saveDrumkit(FS_USED, path, synth.getPatchMap(), synth.getReverb());
                     gui.message(ok ? "Saved: " + name : "Save Failed");
                 }));
             }
@@ -270,7 +270,7 @@ inline std::vector<MenuItem> createSystemMenu() {
                 String newName = DrumkitStorage::getNextDrumkitName(FS_USED, DRUMKIT_DIR);
                 char path[64];
                 snprintf(path, sizeof(path), DRUMKIT_DIR "/%s.json", newName.c_str());
-                bool ok = DrumkitStorage::saveDrumkit(FS_USED, path, synth.getPatchMap());
+                bool ok = DrumkitStorage::saveDrumkit(FS_USED, path, synth.getPatchMap(), synth.getReverb());
                 gui.message(ok ? "Saved: " + newName : "Save Failed");
             }));
 
@@ -285,7 +285,7 @@ inline std::vector<MenuItem> createSystemMenu() {
                 items.emplace_back(MenuItem::Action(name, [name](TextGUI& gui) {
                     char path[64];
                     snprintf(path, sizeof(path), DRUMKIT_DIR "/%s.json", name.c_str());
-                    bool ok = DrumkitStorage::loadDrumkit(FS_USED, path, synth.getPatchMap());
+                    bool ok = DrumkitStorage::loadDrumkit(FS_USED, path, synth.getPatchMap(), synth.getReverb());
                     gui.message(ok ? "Loaded: " + name : "Load Failed");
                 }));
             }
@@ -295,10 +295,41 @@ inline std::vector<MenuItem> createSystemMenu() {
     };
 }
 
+static std::vector<MenuItem> createReverbMenu(FxReverb& reverb) {
+    using namespace std;
+    return {
+        MenuItem::Value("Size %",
+            [&] { return floatToIntRange(reverb.getTime(), 0, 100, 0.0f, 1.0f); },
+            [&](int v) { reverb.setTime(intToFloatRange(v, 0, 100, 0.0f, 1.0f)); },
+            0, 100, 1),
+
+        MenuItem::Value("Level %",
+            [&] { return floatToIntRange(reverb.getLevel(), 0, 100, 0.0f, 1.0f); },
+            [&](int v) { reverb.setLevel(intToFloatRange(v, 0, 100, 0.0f, 1.0f)); },
+            0, 100, 1),
+
+        MenuItem::Value("Damping %",
+            [&] { return floatToIntRange(reverb.getDamping(), 0, 100, 0.0f, 1.0f); },
+            [&](int v) { reverb.setDamping(intToFloatRange(v, 0, 100, 0.0f, 1.0f)); },
+            0, 100, 1),
+
+        MenuItem::Value("PreDelay ms",
+            [&] { return int(reverb.getPreDelayTime() ); },
+            [&](int v) { reverb.setPreDelayTime(v ); },
+            0, 250, 1)
+
+    };
+}
+
+
+
 inline std::vector<MenuItem> createRootMenu() {
     return {
         MenuItem::Submenu("Edit Drumkit", []() {
             return createDrumkitEditor();
+        }),
+        MenuItem::Submenu("Edit Reverb", []() {
+            return createReverbMenu(synth.getReverb());  
         }),
         MenuItem::Submenu("System", []() {
             return createSystemMenu();

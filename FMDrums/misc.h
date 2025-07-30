@@ -334,4 +334,9 @@ inline float __attribute__((always_inline)) IRAM_ATTR fast_fabsf(float x) {
     u.i &= 0x7FFFFFFF;  // clear sign bit
     return u.f;
 }
-
+ 
+inline float __attribute__((always_inline)) IRAM_ATTR fast_floorf(float x) {
+  int i = (int)x;
+  i -= (i > x);
+  return (float)i;
+}

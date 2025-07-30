@@ -93,8 +93,6 @@ public:
     inline float getVolume() const      { return volume_; }
     inline Waveform getWaveform() const { return waveform_; }
 
-    inline float getLastOut() const { return lastOut_; }
-
     void setSampleRate(float sr) {
         sampleRate_ = sr;
         updatePhaseInc();
@@ -135,6 +133,7 @@ public:
         outLevel_ = volume_;
         fmLevel_  = 0.1f * powf(161.0f, volume_) - 0.1f;
         amLevel_  = volume_ * 0.5f;
+        amOffset_  = 1.0f - 0.5f * amLevel_;
     }
 
     void reset() {
@@ -158,37 +157,22 @@ public:
         }
     }
 
-    inline float __attribute__((always_inline)) IRAM_ATTR       fmProcess(float modIn, float env) {
-        phase_ += phaseInc_;
-        if (phase_ >= 1.f) phase_ -= 1.f;
-
-        float t = phase_ + modIn * MOD_RANGE + fbMult_ * lastOut_;
-        t -= floorf(t); // wrap01
-
+    inline float __attribute__((always_inline)) IRAM_ATTR fmProcess(float modIn, float env) {
+        float t = advance(modIn);
         float s = renderWaveform(waveform_.value, t);
         lastOut_ = s;
         return fmLevel_ * s * env;
     }
 
-    inline float __attribute__((always_inline)) IRAM_ATTR        amProcess(float modIn) {
-        phase_ += phaseInc_;
-        if (phase_ >= 1.f) phase_ -= 1.f;
-
-        float t = phase_ + modIn * MOD_RANGE + fbMult_ * lastOut_;
-        t -= floorf(t); // wrap01
-
+    inline float __attribute__((always_inline)) IRAM_ATTR amProcess(float modIn) {
+        float t = advance(modIn);
         float s = renderWaveform(waveform_.value, t);
         lastOut_ = s;
-        return 0.5f + amLevel_ * s; // scale to [0..1]
+        return amOffset_ + amLevel_ * s; 
     }
 
-    inline float __attribute__((always_inline)) IRAM_ATTR      outProcess(float modIn, float env) {
-        phase_ += phaseInc_;
-        if (phase_ >= 1.f) phase_ -= 1.f;
-
-        float t = phase_ + modIn * MOD_RANGE + fbMult_ * lastOut_;
-        t -= floorf(t); // wrap01
-
+    inline float __attribute__((always_inline)) IRAM_ATTR outProcess(float modIn, float env) {
+        float t = advance(modIn);
         float s = renderWaveform(waveform_.value, t);
         lastOut_ = s;
         return outLevel_ * s * env;
@@ -196,18 +180,18 @@ public:
 
 
 private:
-    inline float wrap01(float x) const {
-        return x - floorf(x);
+    inline float __attribute__((always_inline)) IRAM_ATTR wrap01(float x) const {
+        return x - fast_floorf(x);
     }
 
-    inline float advance(float modIn) {
+    inline float __attribute__((always_inline)) IRAM_ATTR advance(float modIn) {
         phase_ += phaseInc_;
         if (phase_ >= 1.0f) phase_ -= 1.0f;
         return wrap01(phase_ + modIn * MOD_RANGE + fbMult_ * lastOut_);
     }
 
 
-    void updatePhaseInc() {
+    inline void __attribute__((always_inline)) IRAM_ATTR updatePhaseInc() {
         float f = baseFreq_ * ratio_ + detune_;
         phaseInc_ = f * DIV_SAMPLE_RATE;
     }
@@ -230,6 +214,6 @@ private:
     float outLevel_   = 0.8f;
     float fmLevel_    = 0.0f;
     float amLevel_    = 0.0f;
-
+    float amOffset_   = 1.0f;
     Waveform waveform_;
 };

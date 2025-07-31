@@ -32,6 +32,8 @@ struct FmDrumPatch {
     float filterReso = 0.0f;
     float filterMorph = 0.33f;
     uint8_t useFilter = 0;
+    uint8_t chokeGroup = 0;  // 0 = no group, 1..n = group ID
+
 };
 
 extern FmDrumPatch fmDrumPatches[];   

@@ -1,12 +1,13 @@
 {
-  "reverbTime": 0.460239559,
+  "reverbTime": 0.46071437,
   "reverbLevel": 0.5,
   "reverbDamp": 0.219999999,
-  "reverbPreDelay": 11.99546432,
+  "reverbPreDelay": 99.97732544,
   "patches": [
     {
       "name": "HighQ",
       "alg": 2,
+      "grp": 0,
       "freq": 10,
       "veloMod": 0.5,
       "vol": 2,
@@ -69,6 +70,7 @@
     {
       "name": "HighQ",
       "alg": 2,
+      "grp": 0,
       "freq": 10,
       "veloMod": 0.5,
       "vol": 2,
@@ -131,6 +133,7 @@
     {
       "name": "HighQ",
       "alg": 2,
+      "grp": 0,
       "freq": 10,
       "veloMod": 0.5,
       "vol": 2,
@@ -193,6 +196,7 @@
     {
       "name": "HighQ",
       "alg": 2,
+      "grp": 0,
       "freq": 10,
       "veloMod": 0.5,
       "vol": 2,
@@ -255,6 +259,7 @@
     {
       "name": "HighQ",
       "alg": 2,
+      "grp": 0,
       "freq": 10,
       "veloMod": 0.5,
       "vol": 2,
@@ -317,6 +322,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -379,6 +385,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -441,6 +448,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -503,6 +511,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -565,6 +574,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -627,6 +637,7 @@
     {
       "name": "Sub Kick",
       "alg": 0,
+      "grp": 0,
       "freq": 55,
       "veloMod": 0.5,
       "vol": 1,
@@ -689,6 +700,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -751,6 +763,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -813,6 +826,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -875,6 +889,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -937,6 +952,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -999,6 +1015,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -1061,6 +1078,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -1123,6 +1141,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -1185,6 +1204,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -1247,6 +1267,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -1309,6 +1330,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -1371,6 +1393,7 @@
     {
       "name": "",
       "alg": 0,
+      "grp": 0,
       "freq": 440,
       "veloMod": 0.5,
       "vol": 1,
@@ -1433,6 +1456,7 @@
     {
       "name": "Sub Kick",
       "alg": 0,
+      "grp": 0,
       "freq": 55,
       "veloMod": 0.5,
       "vol": 1,
@@ -1495,6 +1519,7 @@
     {
       "name": "Noise Clap",
       "alg": 1,
+      "grp": 0,
       "freq": 650,
       "veloMod": 0.5,
       "vol": 1,
@@ -1557,6 +1582,7 @@
     {
       "name": "Closed Hat",
       "alg": 2,
+      "grp": 0,
       "freq": 3200,
       "veloMod": 0.5,
       "vol": 1,
@@ -1619,6 +1645,7 @@
     {
       "name": "Deep Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 180,
       "veloMod": 0.5,
       "vol": 1,
@@ -1681,6 +1708,7 @@
     {
       "name": "Snare Body",
       "alg": 4,
+      "grp": 0,
       "freq": 210,
       "veloMod": 0.5,
       "vol": 1,
@@ -1743,6 +1771,7 @@
     {
       "name": "Snare Noise",
       "alg": 5,
+      "grp": 0,
       "freq": 200,
       "veloMod": 0.5,
       "vol": 1,
@@ -1805,6 +1834,7 @@
     {
       "name": "Metal Stack",
       "alg": 6,
+      "grp": 0,
       "freq": 1200,
       "veloMod": 0.5,
       "vol": 1,
@@ -1867,6 +1897,7 @@
     {
       "name": "Twirl",
       "alg": 17,
+      "grp": 0,
       "freq": 1064,
       "veloMod": 0.5,
       "vol": 0.319999993,
@@ -1929,6 +1960,7 @@
     {
       "name": "Glass Bell",
       "alg": 3,
+      "grp": 0,
       "freq": 2420,
       "veloMod": 0.5,
       "vol": 0.600000024,
@@ -1991,6 +2023,7 @@
     {
       "name": "Sub Kick",
       "alg": 3,
+      "grp": 0,
       "freq": 53,
       "veloMod": 0.5,
       "vol": 1,
@@ -2053,6 +2086,7 @@
     {
       "name": "HighQ",
       "alg": 2,
+      "grp": 0,
       "freq": 10,
       "veloMod": 0.5,
       "vol": 2,
@@ -2115,6 +2149,7 @@
     {
       "name": "SnareSlap",
       "alg": 6,
+      "grp": 0,
       "freq": 272,
       "veloMod": 0.5,
       "vol": 1,
@@ -2177,6 +2212,7 @@
     {
       "name": "BassDrum",
       "alg": 3,
+      "grp": 0,
       "freq": 32,
       "veloMod": 0.5,
       "vol": 1.679999948,
@@ -2239,6 +2275,7 @@
     {
       "name": "Kick",
       "alg": 3,
+      "grp": 0,
       "freq": 46,
       "veloMod": 0.5,
       "vol": 1.600000024,
@@ -2301,6 +2338,7 @@
     {
       "name": "SideStick",
       "alg": 3,
+      "grp": 0,
       "freq": 290,
       "veloMod": 0.5,
       "vol": 1.600000024,
@@ -2363,6 +2401,7 @@
     {
       "name": "AccSnare",
       "alg": 3,
+      "grp": 0,
       "freq": 222,
       "veloMod": 0.5,
       "vol": 1,
@@ -2425,6 +2464,7 @@
     {
       "name": "Hand Claps",
       "alg": 14,
+      "grp": 0,
       "freq": 124,
       "veloMod": 0.800000012,
       "vol": 1.600000024,
@@ -2432,9 +2472,9 @@
       "rvb": 0.059999999,
       "atk": 0.02,
       "hold": 0.007,
-      "dec": 0.5,
+      "dec": 0.254000008,
       "sus": 0,
-      "rel": 0.5,
+      "rel": 0.254000008,
       "flt": 1,
       "filterFreq": 1285,
       "filterReso": 0.529999971,
@@ -2462,10 +2502,10 @@
           "wave": 0
         },
         {
-          "ratio": 0.659999967,
+          "ratio": 0.920000017,
           "detune": 0,
           "fb": 0,
-          "vol": 0.49000001,
+          "vol": 0.670000017,
           "wave": 9
         },
         {
@@ -2487,6 +2527,7 @@
     {
       "name": "Snare Body",
       "alg": 3,
+      "grp": 0,
       "freq": 260,
       "veloMod": 0.5,
       "vol": 1,
@@ -2549,6 +2590,7 @@
     {
       "name": "Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 65,
       "veloMod": 0.5,
       "vol": 1,
@@ -2568,8 +2610,8 @@
           "ratio": 1,
           "detune": 0,
           "fb": 0,
-          "vol": 0.569999993,
-          "wave": 2
+          "vol": 0.400000006,
+          "wave": 0
         },
         {
           "ratio": 1,
@@ -2589,21 +2631,21 @@
           "ratio": 1,
           "detune": 0,
           "fb": 0,
-          "vol": 0.790000021,
+          "vol": 0.800000012,
           "wave": 2
         },
         {
           "ratio": 0,
-          "detune": -2.5,
+          "detune": 1.299999952,
           "fb": 0,
-          "vol": 0.400000006,
-          "wave": 9
+          "vol": 0.610000014,
+          "wave": 4
         },
         {
-          "ratio": 0.5,
+          "ratio": 0.790000021,
           "detune": 0,
           "fb": 0,
-          "vol": 0.039999999,
+          "vol": 0.090000004,
           "wave": 0
         }
       ]
@@ -2611,6 +2653,7 @@
     {
       "name": "Hi Hat",
       "alg": 2,
+      "grp": 1,
       "freq": 1817,
       "veloMod": 0.5,
       "vol": 1.100000024,
@@ -2673,6 +2716,7 @@
     {
       "name": "Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 100,
       "veloMod": 0.5,
       "vol": 1,
@@ -2735,6 +2779,7 @@
     {
       "name": "Hi Hat",
       "alg": 2,
+      "grp": 1,
       "freq": 1817,
       "veloMod": 0.5,
       "vol": 0.779999971,
@@ -2797,6 +2842,7 @@
     {
       "name": "Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 135,
       "veloMod": 0.5,
       "vol": 1,
@@ -2859,6 +2905,7 @@
     {
       "name": "Hi Hat",
       "alg": 3,
+      "grp": 1,
       "freq": 3931,
       "veloMod": 0.5,
       "vol": 1,
@@ -2870,9 +2917,9 @@
       "sus": 0,
       "rel": 1.332000017,
       "flt": 1,
-      "filterFreq": 4820,
+      "filterFreq": 4337,
       "filterReso": 0,
-      "filterMorph": 0.709999979,
+      "filterMorph": 1,
       "ops": [
         {
           "ratio": 1.019999981,
@@ -2921,6 +2968,7 @@
     {
       "name": "Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 210,
       "veloMod": 0.5,
       "vol": 1,
@@ -2983,6 +3031,7 @@
     {
       "name": "Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 320,
       "veloMod": 0.5,
       "vol": 1,
@@ -3045,6 +3094,7 @@
     {
       "name": "Crash 1",
       "alg": 6,
+      "grp": 0,
       "freq": 1866,
       "veloMod": 0.5,
       "vol": 0.699999988,
@@ -3107,6 +3157,7 @@
     {
       "name": "Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 400,
       "veloMod": 0.5,
       "vol": 1,
@@ -3169,6 +3220,7 @@
     {
       "name": "Closed Hat",
       "alg": 12,
+      "grp": 0,
       "freq": 991,
       "veloMod": 0.5,
       "vol": 1.539999962,
@@ -3180,9 +3232,9 @@
       "sus": 0,
       "rel": 4.407999992,
       "flt": 1,
-      "filterFreq": 5252,
-      "filterReso": 0.01,
-      "filterMorph": 1,
+      "filterFreq": 9751,
+      "filterReso": 0,
+      "filterMorph": 0.920000017,
       "ops": [
         {
           "ratio": 1,
@@ -3231,6 +3283,7 @@
     {
       "name": "Deep Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 1163,
       "veloMod": 0.5,
       "vol": 1.5,
@@ -3293,9 +3346,10 @@
     {
       "name": "Snare Body",
       "alg": 10,
+      "grp": 0,
       "freq": 2178,
       "veloMod": 0.5,
-      "vol": 1,
+      "vol": 0.319999993,
       "pan": -0.110000014,
       "rvb": 0.100000001,
       "atk": 0.004,
@@ -3355,18 +3409,19 @@
     {
       "name": "Snare Noise",
       "alg": 14,
-      "freq": 7221,
+      "grp": 0,
+      "freq": 8474,
       "veloMod": 0.5,
-      "vol": 1,
+      "vol": 1.019999981,
       "pan": 0,
       "rvb": 0.319999993,
-      "atk": 0.079999998,
+      "atk": 0.034000002,
       "hold": 0.009,
       "dec": 0.628000021,
       "sus": 0,
       "rel": 0.629999995,
       "flt": 1,
-      "filterFreq": 3818,
+      "filterFreq": 5573,
       "filterReso": 0,
       "filterMorph": 1,
       "ops": [
@@ -3392,11 +3447,11 @@
           "wave": 7
         },
         {
-          "ratio": 0.020000001,
-          "detune": 4.800000191,
+          "ratio": 0.010000001,
+          "detune": 0,
           "fb": 0,
-          "vol": 0.430000007,
-          "wave": 9
+          "vol": 0.349999994,
+          "wave": 7
         },
         {
           "ratio": 1.389999986,
@@ -3417,6 +3472,7 @@
     {
       "name": "Cymbal",
       "alg": 11,
+      "grp": 0,
       "freq": 1284,
       "veloMod": 0.5,
       "vol": 1.399999976,
@@ -3479,6 +3535,7 @@
     {
       "name": "Noise Bell",
       "alg": 3,
+      "grp": 0,
       "freq": 357,
       "veloMod": 0.5,
       "vol": 1,
@@ -3541,6 +3598,7 @@
     {
       "name": "Cymbal",
       "alg": 11,
+      "grp": 0,
       "freq": 1509,
       "veloMod": 0.5,
       "vol": 1,
@@ -3603,6 +3661,7 @@
     {
       "name": "Tight Clap",
       "alg": 14,
+      "grp": 0,
       "freq": 1373,
       "veloMod": 0.5,
       "vol": 1,
@@ -3610,9 +3669,9 @@
       "rvb": 0.100000001,
       "atk": 0.023,
       "hold": 0.005,
-      "dec": 3.609999895,
+      "dec": 2.798000097,
       "sus": 0,
-      "rel": 3.605000019,
+      "rel": 2.798000097,
       "flt": 1,
       "filterFreq": 1377,
       "filterReso": 0.860000014,
@@ -3621,7 +3680,7 @@
         {
           "ratio": 1,
           "detune": 0,
-          "fb": 5.599999905,
+          "fb": 10,
           "vol": 0.800000012,
           "wave": 0
         },
@@ -3656,8 +3715,8 @@
         {
           "ratio": 1.129999995,
           "detune": 0,
-          "fb": 6.600000381,
-          "vol": 0.100000001,
+          "fb": 9,
+          "vol": 0.550000012,
           "wave": 0
         }
       ]
@@ -3665,6 +3724,7 @@
     {
       "name": "Tick Click",
       "alg": 3,
+      "grp": 0,
       "freq": 776,
       "veloMod": 0.5,
       "vol": 0.579999983,
@@ -3725,8 +3785,9 @@
       ]
     },
     {
-      "name": "Glass FX",
+      "name": "Bongo",
       "alg": 2,
+      "grp": 0,
       "freq": 211,
       "veloMod": 0.5,
       "vol": 1.419999957,
@@ -3787,8 +3848,9 @@
       ]
     },
     {
-      "name": "Rail bell",
+      "name": "Bongo",
       "alg": 2,
+      "grp": 0,
       "freq": 135,
       "veloMod": 0.5,
       "vol": 1.460000038,
@@ -3849,142 +3911,19 @@
       ]
     },
     {
-      "name": "Sub Kick",
-      "alg": 0,
-      "freq": 55,
-      "veloMod": 0.5,
-      "vol": 1,
-      "pan": 0,
-      "rvb": 0.100000001,
-      "atk": 0.001,
-      "hold": 0.01,
-      "dec": 0.300000012,
-      "sus": 0,
-      "rel": 0.200000003,
-      "flt": 0,
-      "filterFreq": 20000,
-      "filterReso": 0.5,
-      "filterMorph": 0,
-      "ops": [
-        {
-          "ratio": 0.670000017,
-          "detune": 0,
-          "fb": 1.5,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 1,
-          "detune": 0,
-          "fb": 3,
-          "vol": 0.800000012,
-          "wave": 3
-        }
-      ]
-    },
-    {
-      "name": "Noise Clap",
-      "alg": 1,
-      "freq": 650,
-      "veloMod": 0.5,
-      "vol": 1,
-      "pan": 0,
-      "rvb": 0.100000001,
-      "atk": 0.001,
-      "hold": 0.005,
-      "dec": 0.119999997,
-      "sus": 0,
-      "rel": 0.050000001,
-      "flt": 0,
-      "filterFreq": 20000,
-      "filterReso": 0.5,
-      "filterMorph": 0,
-      "ops": [
-        {
-          "ratio": 1,
-          "detune": 0,
-          "fb": 0.100000001,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 1,
-          "detune": 0,
-          "fb": 4.599999905,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 4.800000191,
-          "vol": 0.800000012,
-          "wave": 0
-        }
-      ]
-    },
-    {
-      "name": "Closed Hat",
+      "name": "Bongo",
       "alg": 2,
-      "freq": 3200,
+      "grp": 3,
+      "freq": 211,
       "veloMod": 0.5,
-      "vol": 1,
-      "pan": 0,
+      "vol": 1.600000024,
+      "pan": 0.230000019,
       "rvb": 0.100000001,
       "atk": 0.001,
-      "hold": 0.005,
-      "dec": 0.119999997,
+      "hold": 0,
+      "dec": 0.07,
       "sus": 0,
-      "rel": 0.059999999,
+      "rel": 0.07,
       "flt": 0,
       "filterFreq": 20000,
       "filterReso": 0.5,
@@ -3998,51 +3937,52 @@
           "wave": 0
         },
         {
-          "ratio": 0,
+          "ratio": 0.5,
           "detune": 0,
-          "fb": 0,
+          "fb": 0.5,
           "vol": 0.800000012,
           "wave": 0
         },
         {
-          "ratio": 0,
+          "ratio": 1.200000048,
           "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
+          "fb": 0.5,
           "vol": 0.800000012,
           "wave": 0
         },
         {
           "ratio": 2,
           "detune": 0,
-          "fb": 4.5,
+          "fb": 2,
           "vol": 0.800000012,
-          "wave": 3
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.979999959,
+          "detune": 0,
+          "fb": 1.899999976,
+          "vol": 0.059999999,
+          "wave": 2
         }
       ]
     },
     {
-      "name": "Deep Tom",
-      "alg": 3,
-      "freq": 180,
+      "name": "Bongo",
+      "alg": 2,
+      "grp": 3,
+      "freq": 211,
       "veloMod": 0.5,
-      "vol": 1,
-      "pan": 0,
+      "vol": 1.419999957,
+      "pan": 0.230000019,
       "rvb": 0.100000001,
-      "atk": 0.002,
+      "atk": 0.005,
       "hold": 0.01,
       "dec": 0.400000006,
       "sus": 0,
@@ -4053,62 +3993,63 @@
       "filterMorph": 0,
       "ops": [
         {
-          "ratio": 0.800000012,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
           "ratio": 1,
           "detune": 0,
-          "fb": 0.200000003,
+          "fb": 0,
           "vol": 0.800000012,
           "wave": 0
         },
         {
-          "ratio": 1.5,
+          "ratio": 0.5,
           "detune": 0,
-          "fb": 1.200000048,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.200000048,
+          "detune": 0,
+          "fb": 0.5,
           "vol": 0.800000012,
           "wave": 0
         },
         {
           "ratio": 2,
           "detune": 0,
-          "fb": 1.5,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
           "vol": 0.800000012,
           "wave": 0
         }
       ]
     },
     {
-      "name": "Snare Body",
-      "alg": 4,
-      "freq": 210,
+      "name": "Bongo",
+      "alg": 2,
+      "grp": 0,
+      "freq": 127,
       "veloMod": 0.5,
-      "vol": 1,
-      "pan": 0,
+      "vol": 1.419999957,
+      "pan": 0.230000019,
       "rvb": 0.100000001,
-      "atk": 0.002,
+      "atk": 0.005,
       "hold": 0.01,
-      "dec": 0.25,
+      "dec": 0.400000006,
       "sus": 0,
-      "rel": 0.25,
+      "rel": 0.300000012,
       "flt": 0,
       "filterFreq": 20000,
       "filterReso": 0.5,
@@ -4122,37 +4063,163 @@
           "wave": 0
         },
         {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 0,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 1,
+          "ratio": 0.5,
           "detune": 0,
           "fb": 0.5,
           "vol": 0.800000012,
           "wave": 0
         },
         {
-          "ratio": 1.5,
+          "ratio": 1.200000048,
           "detune": 0,
-          "fb": 1.799999952,
+          "fb": 0.5,
           "vol": 0.800000012,
           "wave": 0
         },
         {
-          "ratio": 3,
+          "ratio": 2,
           "detune": 0,
-          "fb": 4,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Bongo",
+      "alg": 2,
+      "grp": 0,
+      "freq": 211,
+      "veloMod": 0.5,
+      "vol": 1.419999957,
+      "pan": 0.230000019,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.200000048,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
+          "vol": 0.800000012,
+          "wave": 0
+        }
+      ]
+    },
+    {
+      "name": "Bongo",
+      "alg": 2,
+      "grp": 0,
+      "freq": 211,
+      "veloMod": 0.5,
+      "vol": 1.419999957,
+      "pan": 0.230000019,
+      "rvb": 0.100000001,
+      "atk": 0.005,
+      "hold": 0.01,
+      "dec": 0.400000006,
+      "sus": 0,
+      "rel": 0.300000012,
+      "flt": 0,
+      "filterFreq": 20000,
+      "filterReso": 0.5,
+      "filterMorph": 0,
+      "ops": [
+        {
+          "ratio": 1,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0.5,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 1.200000048,
+          "detune": 0,
+          "fb": 0.5,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2,
+          "detune": 0,
+          "fb": 2,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 2.5,
+          "detune": 0,
+          "fb": 3,
+          "vol": 0.800000012,
+          "wave": 0
+        },
+        {
+          "ratio": 0,
+          "detune": 0,
+          "fb": 4.5,
           "vol": 0.800000012,
           "wave": 0
         }
@@ -4161,6 +4228,7 @@
     {
       "name": "Snare Noise",
       "alg": 2,
+      "grp": 0,
       "freq": 472,
       "veloMod": 0.5,
       "vol": 1,
@@ -4223,6 +4291,7 @@
     {
       "name": "Metal Stack",
       "alg": 2,
+      "grp": 0,
       "freq": 359,
       "veloMod": 0.5,
       "vol": 1,
@@ -4285,6 +4354,7 @@
     {
       "name": "Noise Bell",
       "alg": 7,
+      "grp": 0,
       "freq": 800,
       "veloMod": 0.5,
       "vol": 1,
@@ -4347,25 +4417,26 @@
     {
       "name": "Chime",
       "alg": 2,
+      "grp": 0,
       "freq": 3102,
       "veloMod": 0.5,
       "vol": 1.200000048,
       "pan": 0,
       "rvb": 0.100000001,
       "atk": 0.240999997,
-      "hold": 0.01,
+      "hold": 0,
       "dec": 0.342000008,
       "sus": 0,
       "rel": 0.333999991,
-      "flt": 0,
-      "filterFreq": 20000,
-      "filterReso": 0.5,
-      "filterMorph": 0,
+      "flt": 1,
+      "filterFreq": 3173,
+      "filterReso": 0,
+      "filterMorph": 0.779999971,
       "ops": [
         {
           "ratio": 1,
           "detune": 0,
-          "fb": 5.5,
+          "fb": 7.5,
           "vol": 0.800000012,
           "wave": 0
         },
@@ -4400,8 +4471,8 @@
         {
           "ratio": 3.539999962,
           "detune": 0,
-          "fb": 6.399999619,
-          "vol": 0.059999999,
+          "fb": 5.099999905,
+          "vol": 0.07,
           "wave": 0
         }
       ]
@@ -4409,7 +4480,8 @@
     {
       "name": "Whistle",
       "alg": 14,
-      "freq": 2135,
+      "grp": 0,
+      "freq": 2355,
       "veloMod": 0.5,
       "vol": 1.419999957,
       "pan": 0,
@@ -4471,7 +4543,8 @@
     {
       "name": "Whistle",
       "alg": 14,
-      "freq": 2135,
+      "grp": 0,
+      "freq": 2355,
       "veloMod": 0.5,
       "vol": 1.419999957,
       "pan": 0,
@@ -4533,6 +4606,7 @@
     {
       "name": "Guiro",
       "alg": 17,
+      "grp": 0,
       "freq": 660,
       "veloMod": 0.5,
       "vol": 1,
@@ -4543,7 +4617,7 @@
       "dec": 0.282000005,
       "sus": 0,
       "rel": 0.287999988,
-      "flt": 1,
+      "flt": 0,
       "filterFreq": 1245,
       "filterReso": 0,
       "filterMorph": 1,
@@ -4595,6 +4669,7 @@
     {
       "name": "Guiro",
       "alg": 17,
+      "grp": 0,
       "freq": 660,
       "veloMod": 0.5,
       "vol": 1,
@@ -4605,7 +4680,7 @@
       "dec": 0.404000014,
       "sus": 0,
       "rel": 0.558000028,
-      "flt": 1,
+      "flt": 0,
       "filterFreq": 1245,
       "filterReso": 0,
       "filterMorph": 1,
@@ -4657,6 +4732,7 @@
     {
       "name": "Sub Kick",
       "alg": 0,
+      "grp": 0,
       "freq": 55,
       "veloMod": 0.5,
       "vol": 1,
@@ -4719,6 +4795,7 @@
     {
       "name": "Noise Clap",
       "alg": 1,
+      "grp": 0,
       "freq": 650,
       "veloMod": 0.5,
       "vol": 1,
@@ -4781,6 +4858,7 @@
     {
       "name": "Closed Hat",
       "alg": 2,
+      "grp": 0,
       "freq": 3200,
       "veloMod": 0.5,
       "vol": 1,
@@ -4843,6 +4921,7 @@
     {
       "name": "Deep Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 180,
       "veloMod": 0.5,
       "vol": 1,
@@ -4905,6 +4984,7 @@
     {
       "name": "Snare Body",
       "alg": 4,
+      "grp": 0,
       "freq": 210,
       "veloMod": 0.5,
       "vol": 1,
@@ -4965,25 +5045,26 @@
       ]
     },
     {
-      "name": "Snare Noise",
-      "alg": 5,
-      "freq": 200,
+      "name": "Glass Bell",
+      "alg": 3,
+      "grp": 2,
+      "freq": 2420,
       "veloMod": 0.5,
-      "vol": 1,
+      "vol": 0.600000024,
       "pan": 0,
-      "rvb": 0.100000001,
-      "atk": 0.005,
+      "rvb": 0.460000008,
+      "atk": 0,
       "hold": 0.01,
-      "dec": 0.349999994,
+      "dec": 0.300000012,
       "sus": 0,
       "rel": 0.300000012,
       "flt": 0,
-      "filterFreq": 20000,
-      "filterReso": 0.5,
-      "filterMorph": 0,
+      "filterFreq": 4125,
+      "filterReso": 0.01,
+      "filterMorph": 1,
       "ops": [
         {
-          "ratio": 1,
+          "ratio": 1.039999962,
           "detune": 0,
           "fb": 0,
           "vol": 0.800000012,
@@ -4992,105 +5073,107 @@
         {
           "ratio": 1,
           "detune": 0,
-          "fb": 1,
-          "vol": 0.800000012,
+          "fb": 0,
+          "vol": 0.430000007,
           "wave": 0
+        },
+        {
+          "ratio": 2.380000114,
+          "detune": 0,
+          "fb": 0,
+          "vol": 0.800000012,
+          "wave": 3
         },
         {
           "ratio": 1,
-          "detune": 0,
-          "fb": 1.5,
-          "vol": 0.800000012,
-          "wave": 0
+          "detune": 3.700000048,
+          "fb": 0,
+          "vol": 0.300000012,
+          "wave": 2
         },
         {
           "ratio": 1,
-          "detune": 0,
-          "fb": 2,
-          "vol": 0.800000012,
+          "detune": 2.200000286,
+          "fb": 0,
+          "vol": 0.189999998,
           "wave": 0
         },
         {
-          "ratio": 1,
+          "ratio": 1.430000067,
           "detune": 0,
-          "fb": 2.5,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 0,
-          "detune": 0,
-          "fb": 4.5,
-          "vol": 0.800000012,
-          "wave": 0
+          "fb": 0,
+          "vol": 0.090000004,
+          "wave": 1
         }
       ]
     },
     {
-      "name": "Metal Stack",
-      "alg": 6,
-      "freq": 1200,
+      "name": "Glass Bell",
+      "alg": 3,
+      "grp": 2,
+      "freq": 2420,
       "veloMod": 0.5,
-      "vol": 1,
+      "vol": 0.600000024,
       "pan": 0,
-      "rvb": 0.100000001,
-      "atk": 0.005,
+      "rvb": 0.460000008,
+      "atk": 0,
       "hold": 0.01,
-      "dec": 0.600000024,
+      "dec": 6.269999981,
       "sus": 0,
-      "rel": 0.600000024,
+      "rel": 6.229000092,
       "flt": 0,
-      "filterFreq": 20000,
-      "filterReso": 0.5,
-      "filterMorph": 0,
+      "filterFreq": 4125,
+      "filterReso": 0.01,
+      "filterMorph": 1,
       "ops": [
         {
-          "ratio": 1,
+          "ratio": 1.039999962,
           "detune": 0,
           "fb": 0,
           "vol": 0.800000012,
           "wave": 0
         },
         {
-          "ratio": 1.5,
+          "ratio": 1,
           "detune": 0,
-          "fb": 2.5,
-          "vol": 0.800000012,
+          "fb": 0,
+          "vol": 0.430000007,
           "wave": 0
         },
         {
-          "ratio": 2,
+          "ratio": 2.380000114,
           "detune": 0,
-          "fb": 2.5,
+          "fb": 0,
           "vol": 0.800000012,
+          "wave": 3
+        },
+        {
+          "ratio": 1,
+          "detune": 3.700000048,
+          "fb": 0,
+          "vol": 0.300000012,
+          "wave": 2
+        },
+        {
+          "ratio": 1,
+          "detune": 2.200000286,
+          "fb": 0,
+          "vol": 0.189999998,
           "wave": 0
         },
         {
-          "ratio": 2.5,
+          "ratio": 1.430000067,
           "detune": 0,
-          "fb": 2.5,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 3,
-          "detune": 0,
-          "fb": 2.5,
-          "vol": 0.800000012,
-          "wave": 0
-        },
-        {
-          "ratio": 4,
-          "detune": 0,
-          "fb": 3,
-          "vol": 0.800000012,
-          "wave": 0
+          "fb": 0,
+          "vol": 0.090000004,
+          "wave": 1
         }
       ]
     },
     {
       "name": "Noise Bell",
       "alg": 7,
+      "grp": 0,
       "freq": 800,
       "veloMod": 0.5,
       "vol": 1,
@@ -5153,6 +5236,7 @@
     {
       "name": "Chime",
       "alg": 8,
+      "grp": 0,
       "freq": 1000,
       "veloMod": 0.5,
       "vol": 1,
@@ -5215,6 +5299,7 @@
     {
       "name": "Tight Clap",
       "alg": 9,
+      "grp": 0,
       "freq": 600,
       "veloMod": 0.5,
       "vol": 1,
@@ -5277,6 +5362,7 @@
     {
       "name": "Tick Click",
       "alg": 10,
+      "grp": 0,
       "freq": 1500,
       "veloMod": 0.5,
       "vol": 1,
@@ -5339,6 +5425,7 @@
     {
       "name": "Glass FX",
       "alg": 11,
+      "grp": 0,
       "freq": 1700,
       "veloMod": 0.5,
       "vol": 1,
@@ -5401,6 +5488,7 @@
     {
       "name": "Rail bell",
       "alg": 10,
+      "grp": 0,
       "freq": 2000,
       "veloMod": 0.5,
       "vol": 1,
@@ -5463,6 +5551,7 @@
     {
       "name": "Sub Kick",
       "alg": 0,
+      "grp": 0,
       "freq": 55,
       "veloMod": 0.5,
       "vol": 1,
@@ -5525,6 +5614,7 @@
     {
       "name": "Noise Clap",
       "alg": 1,
+      "grp": 0,
       "freq": 650,
       "veloMod": 0.5,
       "vol": 1,
@@ -5587,6 +5677,7 @@
     {
       "name": "Closed Hat",
       "alg": 2,
+      "grp": 0,
       "freq": 3200,
       "veloMod": 0.5,
       "vol": 1,
@@ -5649,6 +5740,7 @@
     {
       "name": "Deep Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 180,
       "veloMod": 0.5,
       "vol": 1,
@@ -5711,6 +5803,7 @@
     {
       "name": "Snare Body",
       "alg": 4,
+      "grp": 0,
       "freq": 210,
       "veloMod": 0.5,
       "vol": 1,
@@ -5773,6 +5866,7 @@
     {
       "name": "Snare Noise",
       "alg": 5,
+      "grp": 0,
       "freq": 200,
       "veloMod": 0.5,
       "vol": 1,
@@ -5835,6 +5929,7 @@
     {
       "name": "Metal Stack",
       "alg": 6,
+      "grp": 0,
       "freq": 1200,
       "veloMod": 0.5,
       "vol": 1,
@@ -5897,6 +5992,7 @@
     {
       "name": "Noise Bell",
       "alg": 7,
+      "grp": 0,
       "freq": 800,
       "veloMod": 0.5,
       "vol": 1,
@@ -5959,6 +6055,7 @@
     {
       "name": "Chime",
       "alg": 8,
+      "grp": 0,
       "freq": 1000,
       "veloMod": 0.5,
       "vol": 1,
@@ -6021,6 +6118,7 @@
     {
       "name": "Tight Clap",
       "alg": 9,
+      "grp": 0,
       "freq": 600,
       "veloMod": 0.5,
       "vol": 1,
@@ -6083,6 +6181,7 @@
     {
       "name": "Tick Click",
       "alg": 10,
+      "grp": 0,
       "freq": 1500,
       "veloMod": 0.5,
       "vol": 1,
@@ -6145,6 +6244,7 @@
     {
       "name": "Glass FX",
       "alg": 11,
+      "grp": 0,
       "freq": 1700,
       "veloMod": 0.5,
       "vol": 1,
@@ -6207,6 +6307,7 @@
     {
       "name": "Rail bell",
       "alg": 10,
+      "grp": 0,
       "freq": 2000,
       "veloMod": 0.5,
       "vol": 1,
@@ -6269,6 +6370,7 @@
     {
       "name": "Sub Kick",
       "alg": 0,
+      "grp": 0,
       "freq": 55,
       "veloMod": 0.5,
       "vol": 1,
@@ -6331,6 +6433,7 @@
     {
       "name": "Noise Clap",
       "alg": 1,
+      "grp": 0,
       "freq": 650,
       "veloMod": 0.5,
       "vol": 1,
@@ -6393,6 +6496,7 @@
     {
       "name": "Closed Hat",
       "alg": 2,
+      "grp": 0,
       "freq": 3200,
       "veloMod": 0.5,
       "vol": 1,
@@ -6455,6 +6559,7 @@
     {
       "name": "Deep Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 180,
       "veloMod": 0.5,
       "vol": 1,
@@ -6517,6 +6622,7 @@
     {
       "name": "Snare Body",
       "alg": 4,
+      "grp": 0,
       "freq": 210,
       "veloMod": 0.5,
       "vol": 1,
@@ -6579,6 +6685,7 @@
     {
       "name": "Snare Noise",
       "alg": 5,
+      "grp": 0,
       "freq": 200,
       "veloMod": 0.5,
       "vol": 1,
@@ -6641,6 +6748,7 @@
     {
       "name": "Metal Stack",
       "alg": 6,
+      "grp": 0,
       "freq": 1200,
       "veloMod": 0.5,
       "vol": 1,
@@ -6703,6 +6811,7 @@
     {
       "name": "Noise Bell",
       "alg": 7,
+      "grp": 0,
       "freq": 800,
       "veloMod": 0.5,
       "vol": 1,
@@ -6765,6 +6874,7 @@
     {
       "name": "Chime",
       "alg": 8,
+      "grp": 0,
       "freq": 1000,
       "veloMod": 0.5,
       "vol": 1,
@@ -6827,6 +6937,7 @@
     {
       "name": "Tight Clap",
       "alg": 9,
+      "grp": 0,
       "freq": 600,
       "veloMod": 0.5,
       "vol": 1,
@@ -6889,6 +7000,7 @@
     {
       "name": "Tick Click",
       "alg": 10,
+      "grp": 0,
       "freq": 1500,
       "veloMod": 0.5,
       "vol": 1,
@@ -6951,6 +7063,7 @@
     {
       "name": "Glass FX",
       "alg": 11,
+      "grp": 0,
       "freq": 1700,
       "veloMod": 0.5,
       "vol": 1,
@@ -7013,6 +7126,7 @@
     {
       "name": "Rail bell",
       "alg": 10,
+      "grp": 0,
       "freq": 2000,
       "veloMod": 0.5,
       "vol": 1,
@@ -7075,6 +7189,7 @@
     {
       "name": "Sub Kick",
       "alg": 0,
+      "grp": 0,
       "freq": 55,
       "veloMod": 0.5,
       "vol": 1,
@@ -7137,6 +7252,7 @@
     {
       "name": "Noise Clap",
       "alg": 1,
+      "grp": 0,
       "freq": 650,
       "veloMod": 0.5,
       "vol": 1,
@@ -7199,6 +7315,7 @@
     {
       "name": "Closed Hat",
       "alg": 2,
+      "grp": 0,
       "freq": 3200,
       "veloMod": 0.5,
       "vol": 1,
@@ -7261,6 +7378,7 @@
     {
       "name": "Deep Tom",
       "alg": 3,
+      "grp": 0,
       "freq": 180,
       "veloMod": 0.5,
       "vol": 1,
@@ -7323,6 +7441,7 @@
     {
       "name": "Snare Body",
       "alg": 4,
+      "grp": 0,
       "freq": 210,
       "veloMod": 0.5,
       "vol": 1,
@@ -7385,6 +7504,7 @@
     {
       "name": "Snare Noise",
       "alg": 5,
+      "grp": 0,
       "freq": 200,
       "veloMod": 0.5,
       "vol": 1,
@@ -7447,6 +7567,7 @@
     {
       "name": "Metal Stack",
       "alg": 6,
+      "grp": 0,
       "freq": 1200,
       "veloMod": 0.5,
       "vol": 1,
@@ -7509,6 +7630,7 @@
     {
       "name": "Noise Bell",
       "alg": 7,
+      "grp": 0,
       "freq": 800,
       "veloMod": 0.5,
       "vol": 1,
@@ -7571,6 +7693,7 @@
     {
       "name": "Chime",
       "alg": 8,
+      "grp": 0,
       "freq": 1000,
       "veloMod": 0.5,
       "vol": 1,
@@ -7633,6 +7756,7 @@
     {
       "name": "Tight Clap",
       "alg": 9,
+      "grp": 0,
       "freq": 600,
       "veloMod": 0.5,
       "vol": 1,
@@ -7695,6 +7819,7 @@
     {
       "name": "Tick Click",
       "alg": 10,
+      "grp": 0,
       "freq": 1500,
       "veloMod": 0.5,
       "vol": 1,
@@ -7757,6 +7882,7 @@
     {
       "name": "Glass FX",
       "alg": 11,
+      "grp": 0,
       "freq": 1700,
       "veloMod": 0.5,
       "vol": 1,
@@ -7819,6 +7945,7 @@
     {
       "name": "Rail bell",
       "alg": 10,
+      "grp": 0,
       "freq": 2000,
       "veloMod": 0.5,
       "vol": 1,
@@ -7881,6 +8008,7 @@
     {
       "name": "Sub Kick",
       "alg": 0,
+      "grp": 0,
       "freq": 55,
       "veloMod": 0.5,
       "vol": 1,

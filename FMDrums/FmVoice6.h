@@ -29,6 +29,7 @@ public:
     static constexpr int NumOps = 6;
     static constexpr int NumAlgos = NUM_ALGOS;
     inline uint8_t& getAlgorithm()  { return algo_; }
+    inline uint8_t& getChokeGroup()  { return chokeGroup_; }
     inline FmOperator& getOp(int i) { return ops[i]; }
     inline const FmOperator& getOp(int i) const { return ops[i]; }
     inline float& getFrequency() { return baseFreq_; }
@@ -85,6 +86,10 @@ public:
         algo_ = (id < NumAlgos) ? id : 0;
     }
 
+    void setChokeGroup(uint8_t id) {
+        chokeGroup_ =  id;
+    }
+
     void setVolume(float v) {
         volume_ = v;
         velocityVol_ = v * velocity_;
@@ -115,6 +120,10 @@ public:
 
     void noteOff() {
         env.end(Adsr::END_REGULAR);
+    }
+
+    void noteChoke() {
+        env.end(Adsr::END_SEMI_FAST);
     }
 
     void __attribute__((always_inline)) process() {
@@ -294,6 +303,7 @@ public:
     void applyPatch(const FmDrumPatch& p) {
         setAhdsr(p.attack, p.hold, p.decay, p.sustain, p.release);
         setAlgorithm(p.algoIndex);
+        setChokeGroup(p.chokeGroup);
         setFrequency(p.baseFreq);
         setVolume(p.volume);
         setPan(p.pan);
@@ -323,6 +333,7 @@ public:
         p.filterMorph = filter.getMorph();
         p.useFilter = useFilter_ ? 1 : 0;
         p.algoIndex = algo_;
+        p.chokeGroup = chokeGroup_;
         for (int i = 0; i < 6; ++i) {
             p.ops[i].ratio    = ops[i].getRatio();
             p.ops[i].detune   = ops[i].getDetune();
@@ -344,11 +355,11 @@ private:
     float velocityVol_ = 1.0f;
     bool useFilter_ = true;
     uint8_t algo_ = 0;
+    uint8_t chokeGroup_ = 0;
     float pan_ = 0.f;
     float panL_ = ONE_DIV_SQRT2;
     float panR_ = ONE_DIV_SQRT2;
     float reverbSend_ = 0.1f;
-
     std::array<FmOperator, NumOps> ops;
     Adsr env;
     SvfFilter filter;

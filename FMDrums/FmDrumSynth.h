@@ -26,13 +26,15 @@ public:
 
 
     void handleNoteOn(uint8_t midiNote, uint8_t velocity) {
-        int idx = allocator.allocateVoice(midiNote);
+        auto newPatch = patchMap[midiNote];
+        uint8_t chokeId = newPatch.chokeGroup;
+        int idx = allocator.allocateVoice(midiNote, chokeId);
         if (idx < 0 || idx >= MAX_VOICES) {
             ESP_LOGE("Synth", "Invalid voice %d", idx);
             return;
         }
         voices[idx].reset();
-        voices[idx].applyPatch(patchMap[midiNote]);
+        voices[idx].applyPatch(newPatch);
         voices[idx].noteOn(-1.0f, velocity / 127.f);
         ESP_LOGI("Synth", "Note %d on, voice %d", midiNote, idx);
     }

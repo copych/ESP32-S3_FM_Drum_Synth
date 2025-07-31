@@ -212,7 +212,8 @@ inline std::vector<MenuItem> createPatchEditor(FmDrumPatch& patch) {
     items.push_back(MenuItem::Value("Filter Morph",
         [&]() { return floatToIntRange(patch.filterMorph, 0, 100, 0.f, 1.f); },
         [&](int v) { patch.filterMorph = intToFloatRange(v, 0, 100, 0.f, 1.f); },
-        0, 100, 1));
+        0, 100, 1)
+    );
 
     char label[12];
     for (int i = 0; i < 6; ++i) {
@@ -223,6 +224,12 @@ inline std::vector<MenuItem> createPatchEditor(FmDrumPatch& patch) {
         }));
 
     }
+
+    items.push_back(MenuItem::Value("Choke Group",
+        [&]()  { return patch.chokeGroup; },
+        [&](int v) { patch.chokeGroup = v ; },
+        0, 15, 1)
+    );
 
     return items;
 }
@@ -236,14 +243,14 @@ inline std::vector<MenuItem> createDrumkitEditor() {
         const char* name = gmDrumNoteName(static_cast<GmDrumNote>(note));
         auto item = MenuItem::Action(
             String(note) + ": " + name,
-            [note, patchMap](TextGUI& gui) {
+            [note, patchMap, name](TextGUI& gui) {
                 gui.enterSubmenu(
                     createPatchEditor(patchMap[note]),
-                    String("Patch ") + String(note),
+                    String(note) + ": " + name ,
                     nullptr,
                     note
                 );                
-                ESP_LOGI("GUI", "Entering patch editor for note %d", note);
+               // ESP_LOGI("GUI", "Entering patch editor for note %d", note);
             } 
         );  
         items.push_back(item);

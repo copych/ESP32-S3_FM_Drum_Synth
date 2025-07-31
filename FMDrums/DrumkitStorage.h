@@ -14,6 +14,7 @@ namespace DrumkitStorage {
 inline void serializePatch(JsonObject obj, const FmDrumPatch& patch) {
     obj["name"] = patch.name;
     obj["alg"] = patch.algoIndex;
+    obj["grp"] = patch.chokeGroup;
     obj["freq"] = patch.baseFreq;
     obj["veloMod"] = patch.velocityMod;
     obj["vol"] = patch.volume;
@@ -48,6 +49,7 @@ inline void deserializePatch(JsonObject obj, FmDrumPatch& patch) {
     patch.name[sizeof(patch.name) - 1] = '\0';
 
     patch.algoIndex = obj["alg"] | 0;
+    patch.chokeGroup = obj["grp"] | 0;
     patch.baseFreq = obj["freq"] | 440.0f;
     patch.velocityMod = obj["veloMod"] | 0.5f;
     patch.volume = obj["vol"] | 1.0f;

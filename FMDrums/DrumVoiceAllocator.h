@@ -17,14 +17,25 @@ public:
             activeVoices[i].note = 255;
     }
 
-    int allocateVoice(uint8_t midiNote) {
+    int allocateVoice(uint8_t midiNote, uint8_t chokeId) {
         uint32_t now = millis();
 
-        // Count voices already playing this note
         int activeForNote = 0;
+
+        // Manage choke groups
+        if (chokeId > 0) {
+            for (int i = 0; i < poolSize; ++i) {
+                if (voicePool[i].isActive() && voicePool[i].getChokeGroup() == chokeId) {
+                    voicePool[i].noteChoke();
+                    activeVoices[i].note = 255;
+                }
+            }
+        }
+
+        // Count voices already playing this note
         for (int i = 0; i < poolSize; ++i) {
             if (activeVoices[i].note == midiNote)
-                ++activeForNote;
+                ++activeForNote;   
         }
 
         // Limit voices per note

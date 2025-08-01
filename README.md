@@ -26,16 +26,7 @@ Supports multi-operator FM synthesis, realtime MIDI control, patch editing via O
 ## 🧠 Architecture Overview
 
 ```text
-+------------------+     +--------------------+
-|  MIDI Input      | --> |  DrumVoiceAllocator| --> [polyphonic voice pool]
-+------------------+     +--------------------+
 
-                 +------------------+
-                 |  FmDrumSynth     |
-                 | - patchMap[128]  |  ← GM note mapping
-                 | - voices[]       |  ← FmVoice6 pool
-                 | - reverb engine  |
-                 +------------------+
 
 Each FmVoice6:
     - 6x FmOperator
@@ -47,3 +38,6 @@ Each FmOperator:
     - Multiple waveforms
     - Separated fmProcess(), amProcess(), outProcess()
     - Internal feedback
+```
+
+a demo recording [Demo MP3](https://github.com/copych/ESP32-S3_FM_Drum_Synth/raw/refs/heads/main/media/05-250801_1607.mp3)

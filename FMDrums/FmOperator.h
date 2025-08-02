@@ -133,7 +133,7 @@ public:
         outLevel_ = volume_;
         fmLevel_  = 0.1f * powf(161.0f, volume_) - 0.1f;
         amLevel_  = volume_ * 0.5f;
-        amOffset_  = 1.0f - 0.5f * amLevel_;
+        amOffset_  = 1.0f - amLevel_;
     }
 
     void reset() {

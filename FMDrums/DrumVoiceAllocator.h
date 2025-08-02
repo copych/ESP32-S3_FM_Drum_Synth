@@ -1,110 +1,101 @@
 #pragma once
 #include "config.h"
 #include <stdint.h>
-#include "FmVoice6.h" 
-
-struct ActiveVoice {
-    uint8_t note = 255;   // 255 = inactive
-    uint32_t startTime = 0;
-};
+#include "FmVoice6.h"
 
 class IRAM_ATTR DrumVoiceAllocator {
 public:
     void init(FmVoice6* voices, int numVoices) {
         voicePool = voices;
         poolSize = (numVoices > MAX_VOICES) ? MAX_VOICES : numVoices;
-        for (int i = 0; i < poolSize; ++i)
-            activeVoices[i].note = 255;
     }
 
     int allocateVoice(uint8_t midiNote, uint8_t chokeId) {
-        uint32_t now = millis();
-
         int activeForNote = 0;
 
-        // Manage choke groups
+        // Choke any voices in the same group
         if (chokeId > 0) {
             for (int i = 0; i < poolSize; ++i) {
                 if (voicePool[i].isActive() && voicePool[i].getChokeGroup() == chokeId) {
                     voicePool[i].noteChoke();
-                    activeVoices[i].note = 255;
                 }
             }
         }
 
-        // Count voices already playing this note
+        // Count existing voices playing this note
         for (int i = 0; i < poolSize; ++i) {
-            if (activeVoices[i].note == midiNote)
-                ++activeForNote;   
+            if (voicePool[i].isActive() && voicePool[i].getNote() == midiNote) {
+                ++activeForNote;
+            }
         }
 
-        // Limit voices per note
+        // Enforce per-note polyphony
         if (activeForNote >= MAX_VOICES_PER_NOTE) {
-            int oldest = -1;
-            uint32_t oldestTime = UINT32_MAX;
+            // Find the least important voice for this note to steal
+            float worstScore = -1.f;
+            int worstIndex = -1;
             for (int i = 0; i < poolSize; ++i) {
-                if (activeVoices[i].note == midiNote && activeVoices[i].startTime < oldestTime) {
-                    oldest = i;
-                    oldestTime = activeVoices[i].startTime;
+                if (voicePool[i].isActive() && voicePool[i].getNote() == midiNote) {
+                    float score = voicePool[i].getStealScore();
+                    if (score > worstScore) {
+                        worstScore = score;
+                        worstIndex = i;
+                    }
                 }
             }
-            if (oldest >= 0) {
-                activeVoices[oldest].startTime = now;
-                return oldest;
+            if (worstIndex >= 0) {
+                return worstIndex;
             } else {
-                // Enforce MAX_VOICES_PER_NOTE
                 ESP_LOGW("Allocator", "Note %d dropped (max voices per note)", midiNote);
                 return -1;
             }
         }
 
-        // Try to find a free voice
+        // Find free voice
         for (int i = 0; i < poolSize; ++i) {
             if (!voicePool[i].isActive()) {
-                activeVoices[i].note = midiNote;
-                activeVoices[i].startTime = now;
                 return i;
             }
         }
 
-        // Steal oldest voice globally
-        int oldest = 0;
-        uint32_t oldestTime = activeVoices[0].startTime;
-        for (int i = 1; i < poolSize; ++i) {
-            if (activeVoices[i].startTime < oldestTime) {
-                oldest = i;
-                oldestTime = activeVoices[i].startTime;
+        // Steal least important voice globally
+        float worstScore = -1.f;
+        int worstIndex = -1;
+        for (int i = 0; i < poolSize; ++i) {
+            float score = voicePool[i].getStealScore();
+            if (score > worstScore) {
+                worstScore = score;
+                worstIndex = i;
             }
         }
-
-        activeVoices[oldest].note = midiNote;
-        activeVoices[oldest].startTime = now;
-        return oldest;
+        return worstIndex >= 0 ? worstIndex : 0;
     }
 
     void releaseNote(uint8_t midiNote) {
         for (int i = 0; i < poolSize; ++i) {
-            if (activeVoices[i].note == midiNote && !voicePool[i].isActive()) {
-                activeVoices[i].note = 255;
+            if (voicePool[i].getNote() == midiNote) { 
+                voicePool[i].noteOff();
             }
         }
     }
 
     int getActiveVoiceForNote(uint8_t note) {
-        for (int i = 0; i < poolSize; ++i)
-            if (activeVoices[i].note == note)
+        for (int i = 0; i < poolSize; ++i) {
+            if (voicePool[i].isActive() && voicePool[i].getNote() == note) {
                 return i;
+            }
+        }
         return -1;
     }
 
     uint8_t getNoteForVoice(int voiceIndex) {
-        if (voiceIndex >= 0 && voiceIndex < poolSize)
-            return activeVoices[voiceIndex].note;
+        if (voiceIndex >= 0 && voiceIndex < poolSize) {
+            return voicePool[voiceIndex].getNote();
+        }
         return 255;
     }
 
 private:
     FmVoice6* voicePool = nullptr;
     int poolSize = 0;
-    ActiveVoice activeVoices[MAX_VOICES];
 };

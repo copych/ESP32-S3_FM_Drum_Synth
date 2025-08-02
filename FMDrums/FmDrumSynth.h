@@ -24,6 +24,10 @@ public:
         reverb.init();
     }
 
+    void applyPatch(uint8_t midiNote, FmDrumPatch& patch) {
+        patchMap[midiNote] = patch;
+    }
+
 
     void handleNoteOn(uint8_t midiNote, uint8_t velocity) {
         auto newPatch = patchMap[midiNote];
@@ -35,17 +39,18 @@ public:
         }
         voices[idx].reset();
         voices[idx].applyPatch(newPatch);
-        voices[idx].noteOn(-1.0f, velocity / 127.f);
+        voices[idx].noteOn(-1.0f, midiNote, velocity * MIDI_NORM);
         ESP_LOGI("Synth", "Note %d on, voice %d", midiNote, idx);
     }
 
 
     void handleNoteOff(uint8_t midiNote) {
-        int idx = allocator.getActiveVoiceForNote(midiNote);
+        int idx = allocator.getActiveVoiceForNote(midiNote) ;
         if (idx >= 0) {
             voices[idx].noteOff();
             allocator.releaseNote(midiNote);
-        }
+            ESP_LOGI("Synth", "Note %d off, voice %d", midiNote, idx);
+        }        
     }
     
     void renderAudioBlock(float* outL, float* outR) {

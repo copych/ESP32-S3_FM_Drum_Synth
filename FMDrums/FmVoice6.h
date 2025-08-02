@@ -1,4 +1,5 @@
 #pragma once
+#include "misc.h"
 #include "FmOperator.h"
 #include "FmPatch.h"
 #include "svf_morph.h"
@@ -109,10 +110,11 @@ public:
         filter.reset();
     }
 
-    void noteOn(float hz, float vel = 1.f) {
+    void noteOn(float hz, uint8_t midiNote , float vel = 1.f) {
         reset();
      //   if (hz > 0) setFrequency(hz); else setFrequency(baseFreq_);
-        velocity_ = vel;
+        velocity_ = vel; // 0.0 .. 1.0
+        note_ = midiNote;
         velocityVol_ = vel * volume_;
         veloMult_ = velocity_ * veloMod_;
         env.retrigger(Adsr::END_NOW);
@@ -344,6 +346,18 @@ public:
         return p;
     }
 
+    inline float getStealScore() const {
+        if (!isActive()) return 1e6f; // Prefer stealing inactive
+  
+     //   float cost = patch.cost > 0.01f ? patch.cost : 1.0f;
+        float envPenalty = env.getPenalty();
+        return envPenalty * velocityVol_ ; // / cost;
+    }
+
+   inline uint8_t getNote() const {
+        return note_;
+   }
+
 private:
     float* buffer = nullptr;
     float sampleRate_ = 44100.f;
@@ -353,6 +367,7 @@ private:
     float veloMult_ = velocity_ * veloMod_;
     float volume_ = 1.0f;
     float velocityVol_ = 1.0f;
+    uint8_t note_ = 255;
     bool useFilter_ = true;
     uint8_t algo_ = 0;
     uint8_t chokeGroup_ = 0;
@@ -530,7 +545,7 @@ private:
         //     [2(amp)]↗
         // [3]↗
         float m3 = v.ops[3].fmProcess(0.f, e);
-        float amp2 = v.ops[2].amProcess(m3); // positive amplitude 0..1
+        float amp2 = v.ops[2].amProcess(m3); 
         float m5 = v.ops[5].fmProcess(0.f, e);
         float m4 = v.ops[4].fmProcess(m5, e);
         float m1 = v.ops[1].fmProcess(0.f, e);

@@ -32,6 +32,7 @@ void TextGUI::begin() {
     display.setFont(u8g2_font_6x12_m_symbols);
     display.enableUTF8Print();
     display.setDrawColor(1);
+    display.setFontMode(0);
     display.setFontPosTop();
 
     inited = true;
@@ -145,7 +146,12 @@ void TextGUI::renderMenu() {
         }
 
         // Title resolution
-        String label = item.dynamicTitle ? item.dynamicTitle() : item.title;
+        String label;
+        if (item.dynamicTitle) { 
+            label = item.dynamicTitle();
+        } else {
+            label = item.title;
+        }
 
         switch (item.type) {
             case MenuItemType::TOGGLE: {

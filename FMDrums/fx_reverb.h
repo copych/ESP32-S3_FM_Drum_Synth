@@ -83,12 +83,12 @@ public:
 
   inline float getTime() const {  return rev_time;  }
   inline float getLevel() const { return rev_level; }
-  inline float getPreDelayTime() const { return float(delaySamples * 1000.0f * DIV_SAMPLE_RATE); }
+  inline float getPreDelayTime() const { return (float)delaySamples * 1000.0f * DIV_SAMPLE_RATE; }
   inline float getDamping() const { return globalDamping; }
   
 
   inline void setPreDelayTime(float ms) {
-    delaySamples = int(ms * 0.001f * SAMPLE_RATE);
+    delaySamples = int(ms * 0.001f * (float)SAMPLE_RATE);
     if (delaySamples >= predelaySize) delaySamples = predelaySize - 1;
     if (delaySamples < 0) delaySamples = 0;
     predelayReadOffset = (predelayPtr - delaySamples + predelaySize) % predelaySize;

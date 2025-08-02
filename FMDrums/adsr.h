@@ -23,7 +23,9 @@ public:
         ADSR_SEG_DECAY, ADSR_SEG_SUSTAIN, ADSR_SEG_RELEASE,
         ADSR_SEG_SEMI_FAST_RELEASE, ADSR_SEG_FAST_RELEASE
     };
+
     enum eEnd_t { END_REGULAR, END_SEMI_FAST, END_FAST, END_NOW };
+
 
     Adsr() {}
     ~Adsr() {}
@@ -86,6 +88,22 @@ public:
             case ADSR_SEG_SEMI_FAST_RELEASE: return "SEMI_FAST_RELEASE";
             case ADSR_SEG_IDLE: return "IDLE";
             default: return "UNKNOWN";
+        }
+    }
+
+    float getPenalty() const  {
+        eSegment_t seg;
+        if (gate_ && (x_ == sus_level_)) seg = ADSR_SEG_SUSTAIN;
+        switch (seg) {
+            case ADSR_SEG_ATTACK: return 0.0f;
+            case ADSR_SEG_HOLD: return 0.0f;
+            case ADSR_SEG_DECAY: return x_ * 0.2f;
+            case ADSR_SEG_SUSTAIN: return x_ * 0.5f;
+            case ADSR_SEG_RELEASE: return x_ * 0.4f;
+            case ADSR_SEG_FAST_RELEASE: return x_ * 0.7f;
+            case ADSR_SEG_SEMI_FAST_RELEASE: return x_ * 0.9f;
+            case ADSR_SEG_IDLE: return x_ ;
+            default: return x_ * 0.5f;
         }
     }
 

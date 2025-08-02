@@ -15,6 +15,8 @@ extern FmDrumSynth synth;
 
 namespace MenuStructure {
 
+static FmDrumPatch patchClipboard;
+static bool hasPatchClipboard = false;
 
 
 MenuItem createAlgoChooserCustom(uint8_t& algoIndex) {
@@ -231,6 +233,24 @@ inline std::vector<MenuItem> createPatchEditor(FmDrumPatch& patch) {
         0, 15, 1)
     );
 
+
+    items.emplace_back(MenuItem::Action("Copy Patch", [&](TextGUI& gui) {
+        patchClipboard = patch;
+        hasPatchClipboard = true;
+        gui.message("Copied patch");
+    }));
+
+    items.push_back(MenuItem::Action("Paste Patch", [&](TextGUI& gui) {
+        if (hasPatchClipboard) {
+            patch = patchClipboard;
+            gui.message("Pasted patch");
+        } else {
+            gui.message("Clipboard empty");
+        }
+    }));
+
+
+
     return items;
 }
 
@@ -321,8 +341,8 @@ static std::vector<MenuItem> createReverbMenu(FxReverb& reverb) {
             0, 100, 1),
 
         MenuItem::Value("PreDelay ms",
-            [&] { return int(reverb.getPreDelayTime() ); },
-            [&](int v) { reverb.setPreDelayTime(v ); },
+            [&] { return floatToIntRange(reverb.getPreDelayTime() , 0 , 250 , 0.0f, 250.0f); },
+            [&](int v) { reverb.setPreDelayTime(intToFloatRange(v, 0, 250, 0.0f, 250.0f)); },
             0, 250, 1)
 
     };
